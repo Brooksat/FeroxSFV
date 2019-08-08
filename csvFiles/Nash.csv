@@ -1,0 +1,62 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 Dash oH,xx VTrigger 2 Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,6,4,3,2,1,-3(-13),-4(-14),30,70,H,ch/sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,6,3,15,2,0,10,4,5(-5),-1(-11),60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,8,3,22,0,-5,15,10,10(0),5(-5),90,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,4,3,7,4,3,2,1,-3(-13),-4(-14),30,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,7,4,15,2,0,11,8,6(-4),3(-7),70,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,9,4,15,1,-3,10,6,5(-5),1(-9),80,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,2,7,4,2,2,0,-3(-13),-5(-15),30,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,13,6,2,12,8,7(-3),3(-7),60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,9,2,17,7,3,16,12,11(1),7(-3),80,150,H,su/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,3,6,4,1,3,0,-2(-12),-5(-15),20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,8,2,17,0,-4,9,5,4(-6),0(-10),50,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,8,2,24,KD,-12,KD (+89/40/45),4,KD(+84/35/40) / (+74/25/30),-2(-12),90,150,L,vt1/vt2,73,24,29
+jump LP,jump LP,3,6,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,5,5,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,7,5,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,5,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,5,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,9,5,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+neutral jump HK,Air Somersault,8,6,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+knee bazooka,f+LK,7,6,18,-1,-5,~,~,~,~,60,70,H,-,~,~,~
+jumping sobat,f+MK,13,2,18,2,-3,~,~,~,~,60,100,H,-,~,~,~
+chopping assault,f+MP,22,3,16,1,-6,~,~,~,~,60,100,M,-,~,~,~
+step kick,f+HK,14,4,15,3,-3,12,6,7(-3),1(-9),90,150,H,vt1/vt2,~,~,~
+spinning back knuckle,f+HP,15,3,30,-3,-13,20,10,15(-1),5(-5),90,150,H,vt1/vt2,97,61,61
+side knee attack,b+MK,5,4,14,4,2,12,10,7(-3),5(-5),60,100,H,sp/su/vt1/vt2,~,~,~
+rapid punch,LP > MP,4+6,3,14,1,-6,8,2,3(-7),-4(-14),30*45,70*72,H*H,sp/su/vt1/vt2,~,~,~
+rapid kick,LK > MK,4+5,4,11,4,-2,~,~,~,~,30*54,70*72,H*H,-,~,~,~
+wind shear 1st,MP > LK,6+9,4,22,3,-7,~,~,~,~,60*36,100*45,H*H,-,~,~,~
+wind shear 2nd,MP > LK > HP,6+9+6,3,24,KD,-7,~,~,~,~,60*36*56 (152),100*45*80 (225),H*H*H,-,86,25,30
+down burst,d+MP > f+MP,6+18,3,16,1,-6,~,~,~,~,60*54,100*90,H*M,-,~,~,~
+Raptor Combination 1st,MK > HK,7+9,3,26,KD,-10,~,~,~,~,60*50,100*72,H*H,-,85,26,31
+Raptor Combination 2nd,MK > HK > MK,7+9+14,4,17,KD,-10,~,~,~,~,60*50*44 (164),100*72*80 (252),H*H*H,-,88,29,34
+Bullet Combination,MK > HK > MP+MK,7+9+8,2,24,KD,-10,KD(+111/52/57),~,KD(+106/47/52) / (+96/37/42),~,60*50*44 (164),100*72*80 (252),H*H*H,vt1/vt2,96,37,42
+dragon suplex,Throw,5,3,17,KD,~,~,~,~,~,130,150,T,-,54,5,5
+target down,Back Throw,5,3,17,KD,~,~,~,~,~,150,200,T,-,69,10,10
+air jack,Air Throw,5,2,6,KD,~,~,~,~,~,130,200,T,-,~,~,~
+sonic move hide,VTrigger 1 Behind,4,~,6,~,~,~,~,~,~,,,,-,~,~,~
+sonic move bliz air,VTrigger 1 Front (Air),4,~,~,~,~,~,~,~,~,,,,-,~,~,~
+sonic move steel air,VTrigger 1 Behind (Air),4,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Stealth Dash,VTrigger 2 Activation,4,~,12(38),~,~,~,~,~,~,,,,,~,~,~
+bullet clear,VSkill,8(6),2(8),23(19)(28),5,-5,20,10,15(5),5(-5),70,100,H,vt1/vt2,~,~,~
+sonic move avoid,VReversal,16,25,3,~,~,~,~,~,~,,,,-,~,~,~
+sonic boom LP,LP Fireball,15,~,32,-2,-6,19,15,12(2),8(-2),50,100,H,sp/su/vt1/vt2,~,~,~
+sonic boom MP,MP Fireball,17,~,30,0,-4,19,15,12(2),8(-2),50,100,H,sp/su/vt1/vt2,~,~,~
+sonic boom HP,HP Fireball,22,~,23,4,-2,17,11,12(2),6(-4),50,100,H,sp/su/vt1/vt2,~,~,~
+sonic boom EX 1,EX Fireball 1,11,~,26,4,2,20,18,15(5),13(3),60,100,H*H,vt1/vt2,~,~,~
+sonic boom EX 2,EX Fireball 2,10,~,26,3,2,19,18,14(4),13(3),54,90,H*H,vt1/vt2,~,~,~
+sonic scythe LK,LK Scythe,10,3,24,KD,-7,KD (+102/43/48),10,KD(+97/38/43) / (+87/28/33),5(-5),80,100,H,su/vt1/vt2,85,26,31
+sonic scythe MK,MK Scythe,15,3,22,KD,-10,KD (+104/45/50),5,KD(+99/40/45) / (+89/30/35),0(-10),100,100,H,su/vt1/vt2,89,30,35
+sonic scythe HK,HK Scythe,17,2(3)3,21,KD,-15,KD (+109/50/55),4,KD (+104/45/50) / (+94/35/40),-1(-11),110,150,H*H,vt1/vt2,101,42,47
+sonic scythe EX,EX Scythe,6,3(3)3(26)7,34,KD,-19,KD (+127/68/73),11*10(6*5),KD (+122/63/68) / (+112/53/58),6*5(-4*-5),30x5,30x4*80,H,vt1/vt2,86,27,32
+moonsault slash LK,LK Moonsault,37,3,1+10,4(5),1(2),~,~,~,~,60,100,H,-,~,~,~
+moonsault slash MK,MK Moonsault,37,3,12,4(5),2(3),~,~,~,~,60,100,H,-,~,~,~
+moonsault slash HK,HK Moonsault,37,3,14,4(5),3(4),~,~,~,~,60,100,H,-,~,~,~
+moonsault slash EX,EX Moonsault,39,3(6)3(22)3,10,7,3,~,~,~,~,120,50*50*50,H*H*H,-,~,~,~
+tragedy assault LP,LP TA,18,2,23,KD,-5(-4),~,~,~,~,70*30,0*150,H,-,57,8,8
+tragedy assault MP,MP TA,22,2,26,KD,-6(-5),~,~,~,~,90*30,0*150,H,-,57,8,8
+tragedy assault HP,HP TA,34,2,28,KD,-8(-7),~,~,~,~,120*20,0*150,H,-,57,8,8
+tragedy assault EX,EX TA,8,3(17)2,48,KD,-23,KD (+116/57/57),~,KD (+111/52/52) / (+101/42/42),~,40*50*30 (120),0*0*150,H*H*H,vt1/vt2,96,37,37
+judgement saber,Super,10,3,40,KD,-31,~,~,~,~,330,0,H,-,24,24,24
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 Dash oH,xx VTrigger 2 Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

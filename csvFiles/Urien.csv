@@ -1,0 +1,70 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 (forward) oH,xx VTrigger 1 (forward) oB,xx VTrigger 1 (back) oH,xx VTrigger 1 (back) oB,xx VTrigger 1 (air) oH,xx VTrigger 1 (air) oB,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,10,4,2,2 / -16,0 / -20,-5 / -18,-7 / -20,-17 / -20,-19 / -22,2,0,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,7,3,12,6,3,9 / -11,6 / -14,2 / -11,-1 / -14,-10 / -13,-13 / -16,9,6,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,12,3,18,4,-2,14 / -6,8 / -12,7 / -6,1 / -12,-5 / -8,-11 / -14,14,8,90,150,H,su/vt1/vt2,~,~,~
+stand HP (hold),stand HP (hold),22,3,15,9,5,16 / -4,12 / -8,9 / -4,5 / -8,-3 / -6,-7 / -10,16,12,100,150,H,sp/su/vt1/vt2,~,~,~
+stand HP (release),stand HP (release),5,3,18,4,-2,14 / -6,8 / -12,7 / -6,1 / -12,-5 / -8,-11 / -14,14,8,90,150,H,su/vt1/vt2,~,~,~
+stand LK,stand LK,5,2,8,4,3,2 / -18,1 / -19,-5 / -18,-6 / -19,-17 / -20,-18 / -21,2,1,40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,9,2,18,1,-2,10 / -10,7 / -13,3 / -10,0 / -13,-9 / -12,-12 / -15,10,7,60,100,H,vt1/vt2,~,~,~
+stand HK (air),stand HK (air),9,6,19,~,~,~,~,~,~,~,~,~,~,90,150,H,vt1/vt2,~,~,~
+stand HK (large),stand HK (large),11,4,19,3,-3,11 / -9,5 / -15,4 / -9,-2 / -15,-8 / -11,-15 / -18,11,5,90,150,H,vt1/vt2,~,~,~
+stand HK (hold) (large),stand HK (hold) (large),23,4,18,8,2,8*16 / -12*-4,4*10 / -16*-10,1*9 / -12*-4,-3*3 / -16*-10,-11*-3,-15*-9 / -18*-12,8*16,4*10,50*50,100*50,M,vt1/vt2,~,~,~
+stand HK (crouch large),stand HK (crouch large),12,3,19,4,-2,12 / -8,6 / -14,5 / -8,-1 / -14,-7 / -10,-13 / -16,12,6,90,150,H,vt1/vt2,~,~,~
+stand HK (hold) (crouch large),stand HK (hold) (crouch large),24,3,18,8,2,9*16 / -11*-4,5*10 / -15*-10,2*9 / -11*-4,-2*3 / -15*-10,-10*-3,-14*-9 / -17*-12,9*16,5*10,50*50,100*50,M,vt1/vt2,~,~,~
+stand HK,stand HK,12,3,19,4,-2,12 / -8,6 / -14,5 / -8,-1 / -14,-7 / -10,-13 / -16,12,6,90,150,H,vt1/vt2,~,~,~
+stand HK (hold),stand HK (hold),24,3,18,8,2,9*16 / -11*-4,5*10 / -15*-10,2*9 / -11*-4,-2*3 / -15*-10,-10*-3,-14*-9 / -17*-12,9*16,5*10,50*50,100*50,M,vt1/vt2,~,~,~
+stand HK (crouch),stand HK (crouch),13,2,19,5,-1,13 / -7,7 / -13,6 / -7,0 / -13,-6 / -9,-12 / -15,13,7,90,150,H,vt1/vt2,~,~,~
+stand HK (hold) (crouch),stand HK (hold) (crouch),25,2,18,8,2,10*16 / -10*-4,6*10 / -14*10,3*9 / -10*-4,-1*3 / -14*10,-9*-3,-13*-9 / -16*-12,10*16,6*10,50*50,100*50,M,vt1/vt2,~,~,~
+st.HK (release),st.HK (release),1,6,19,~,~,~,~,~,~,~,~,~,~,90,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,3,8,4,1,3 / -17,0 / -20,-4 / -17,-7 / -20,-16 / -19,-19 / -22,3,0,30,70,H,sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,2,15,5,0,7 / -13,2 / -18,0 / -13,-5 / -18,-12 / -15,-17 / -21,7,2,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,7,1(1)4,21,-6*KD,-9*-8,10*KD / -10*KD,7*6 / -13*-14,3*KD / -10*KD,0*-1 / -13*-14,-9*KD,-12*-13 / -15*-16,10*KD,7*6,50*40,75*75,H*H,sp/su/vt1/vt2,104,45,50
+crouch LK,crouch LK,4,2,7,4,1,1 / -19,-2 / -22,-6 / -19,-9 / -22,-18 / -21,-21 / -24,1,-2,20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,8,2,17,4,-2,12 / -8,6 / -14,5 / -8,-1 / -14,-7 / -10,-13 / -17,12,6,60,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,11,2,27,KD,-14,KD (+86/37/42) / (+66/17/22),4 / -16,KD (+79/30/35) / (+59/10/15),-3 / -16,KD (+67/18/23) / (+64/15/18),-15 / -18,KD (+86/37/42),4,100,150,L,vt1/vt2,68,19,24
+jump LP,jump LP,3,5,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,5,5,~,~,~,~,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,9,5,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,5,~,~,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,9,4,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Quarrel Punch,f+MP,7,4,16,2,-2,11 / -9,7 / -13,4 / -9,0 / -13,-8 / -11,-12 / -15,11,7,70,100,H,sp/su/vt1/vt2,~,~,~
+Terrible Smash,Overhead,21,2,20,1,-8,~,~,~,~,~,~,~,~,80,150,M,-,~,~,~
+Quarrel Kick,Step Kick,15,4,18,4,-4,14 / -6,7 / -13,7 / -6,0 / -13,-5 / -8,-12 / -15,14,7,90,150,H,vt1/vt2,93,34,39
+Killer Straight,LP > MP,4+5,3,14,1,-4,6 / -14,1 / -19,-1 / -14,-6 / -19,-13 / -16,-19 / -22,6,1,30*45,70*72,H*H,sp/su/vt1/vt2,~,~,~
+Break Rush,f+MP > f+HP,7+17,2,20,1,-8,9 / -11,0 / -20,2 / -11,-7 / -20,-10 / -13,-20 / -23,12,3,70*54,100*135,H*M,vt1/vt2,~,~,~
+Spartan Bomb (fwd),Throw,5,3,17,KD,KD,~,~,~,~,~,~,~,~,130,150,T,-,60,11,11
+Spartan Bomb (back),Back Throw,5,3,17,KD,KD,~,~,~,~,~,~,~,~,130,150,T,-,60,11,11
+1st Aegis Reflector (far),1st VTrigger (far),5(2),~,13,22,17,~,~,~,~,~,~,~,~,20,0,H,-,~,~,~
+1st Aegis Reflector (close),1st VTrigger (close),10(7),~,20,22,17,~,~,~,~,~,~,~,~,20,0,H,-,~,~,~
+1st Aegis Reflector (air),1st VTrigger (air),15(13),~,32,22,17,~,~,~,~,~,~,~,~,20,0,H,-,~,~,~
+2nd Aegis Reflector (far),2nd VTrigger (far),24(10),~,6,22,17,~,~,~,~,~,~,~,~,20,0,H,-,~,~,~
+2nd Aegis Reflector (close),2nd VTrigger (close),14(10),~,16,22,17,~,~,~,~,~,~,~,~,20,0,H,-,~,~,~
+2nd Aegis Reflector (air),2nd VTrigger (air),16(12),~,16,22,17,~,~,~,~,~,~,~,~,20,0,H,-,~,~,~
+Tyrant Pressure,VTrigger 2,1,~,4,~,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Metallic Aura,VSkill,16,~,36,~,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Anger Snap Fist,VReversal,17,2,24,KD,-2,~,~,~,~,~,~,~,~,60,0,H,-,75,16,21
+Chariot Tackle LK,LK Tackle,10,6,22,0,-5,~,~,~,~,~,~,~,~,80,150,H,su,87,29,34
+Chariot Tackle MK,MK Tackle,13,11,21,-3,-9,~,~,~,~,~,~,~,~,90,150,H,su,85,26,31
+Chariot Tackle HK,HK Tackle,16,8,21,KD,-6,~,~,~,~,~,~,~,~,100,150,H,su,87,28,33
+Chariot Tackle EX,EX Tackle,7,9(9)4,20,KD,-2,12*KD (+75/16/21) / -5*KD (58/-1/+4),3*5 / -14*-12,5*KD (+68/9/14) / -5*KD (58/-1+4),-3*-2 / -14*-12,-7*KD (+56/-3/+2) / -10*KD (+53/-6/-1),-15*-14 / -18*-17,15*KD (+78/19/24),6*8,90*60,100*100,H,vt1/vt2,68,9,14
+Violence Knee Drop LK,LK Knee Drop,25,12,11,KD,-4(2),~,~,~,~,~,~,~,~,100,200,M,-,72(100),13(41),18(46)
+Violence Knee Drop MK,MK Knee Drop,25,13,13,KD,-7(0),~,~,~,~,~,~,~,~,100,200,M,-,71(98),12(39),17(44)
+Violence Knee Drop HK,HK Knee Drop,25,18,14,KD,-8(-1),~,~,~,~,~,~,~,~,100,200,M,-,72(97),13(38),18(43)
+Violence Knee Drop EX,EX Knee Drop,25,11,10,KD,1(6),~,~,~,~,~,~,~,~,150,200,M,-,91(96),32(37),37(42)
+Dangerous Headbutt LP,LP Headbutt,8,3,8+9,1,-2,~,~,~,~,~,~,~,~,100,150,H,-,~,~,~
+Dangerous Headbutt MP,MP Headbutt,11,4,8+10,1,-2,~,~,~,~,~,~,~,~,110,150,H,-,~,~,~
+Dangerous Headbutt HP,HP Headbutt,13,5,7+10,KD,-2,~,~,~,~,~,~,~,~,120,150,H,-,92,33,38
+Dangerous Headbutt EX,EX Headbutt,12,5,3+26,KD,-17,~,~,~,~,~,~,~,~,40*40,40*40,H,-,102,43,48
+Metallic Sphere LP,LP Fireball,14,1,36,-1,-7,~,~,~,~,~,~,~,~,60,100,H,su,~,~,~
+Metallic Sphere LP (hold),LP Fireball (hold),53,1,28,7,4,~,~,~,~,~,~,~,~,40*50,60*60,H,su,~,~,~
+Metallic Sphere MP,MP Fireball,14,1,36,1,-7,~,~,~,~,~,~,~,~,60,100,H,su,~,~,~
+Metallic Sphere MP (hold),MP Fireball (hold),53,1,30,5,2,~,~,~,~,~,~,~,~,40*50,60*60,H,su,~,~,~
+Metallic Sphere HP,HP Fireball,13,1,36,~,~,~,~,~,~,~,~,~,~,70,100,H,su,~,~,~
+Metallic Sphere HP (hold),HP Fireball (hold),42,1,30,~,~,~,~,~,~,~,~,~,~,45*55,60*60,H,su,~,~,~
+Metallic Sphere EX ground,EX Fireball ground,12,1,32,3,1,21 / 2,19 / 2,14 / 2,12 / 2,2 / 2,0 / -3,24,22,40*50,60*60,H,vt1/vt2,~,~,~
+Metallic Sphere EX ground (hold),EX Fireball ground (hold),41,1,27,17,13,26 / 9,24 / 7,19 / 9,17 / 7,5 / ~,5 / 2,29,27,30*30*60,50*50*50,H,vt1/vt2,~,~,~
+Metallic Sphere EX air,EX Fireball air,13,1,32,~,~,~,~,~,~,~,~,~,~,45*55,60*60,H,vt1/vt2,~,~,~
+Metallic Sphere EX air (hold),EX Fireball air (hold),32,1,27,~,~,~,.,~,~,~,~,~,~,33*33*64,50*50*50,H,vt1/vt2,~,~,~
+Dominate Crush,Super,6,19,60,KD,-47,~,~,~,~,~,~,~,~,340,0,H,-,69,10,15
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 (forward) oH,xx VTrigger 1 (forward) oB,xx VTrigger 1 (back) oH,xx VTrigger 1 (back) oB,xx VTrigger 1 (air) oH,xx VTrigger 1 (air) oB,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

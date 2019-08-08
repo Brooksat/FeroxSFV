@@ -1,0 +1,46 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,3,10,5,4,5,4,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,6,2,15,7,3,13,9,60,100,H,vt1/vt2,~,~,~
+stand HP,stand HP,13,3,20,4,-2,16,10,90,150,H,su/vt1/vt2,~,~,~
+stand LK,stand LK,5,3,10,2,1,3,2,40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,11,3,16,2,-2,10,6,70,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,8,1*3,17(21),8,-1(-3),19(17),12(8),20*70 (80),30*120,H,vt1/vt2,105,46,51
+crouch LP,crouch LP,4,2,11,3,1,5,3,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,7,3,15(14),3,1,12,10,65,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,10,3,19,2,-1,12,9,90,150,H,vt1/vt2,102,43,48
+crouch LK,crouch LK,5,3,9,3,2,4,3,30,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,9,3,16,0,-4,7,3,60,100,L,sp/su/vt1/vt2,~,~,~
+crouch HK,crouch HK,12,2,27,KD,-14,KD (+86/37/42),4,100,150,L,vt1/vt2,68,19,24
+jump LP,jump LP,5,4,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,5,2(1)2,~,KD,~,~,~,30*30,40*40,M,-,~,~,~
+jump HP,jump HP,9,4,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,6,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,12,5,~,~,~,~,~,90,150,M,-,~,~,~
+Tiger Heavy Elbow,Overhead,24,2,21,1,-6,~,~,80,150,H,-,~,~,~
+Step High Kick,High Step Kick,16,3,23,5,3,15,13,90,150,H,vt1/vt2,~,~,~
+Step Low Kick,Low Step Kick,19,2,23,3,-2,~,~,70,100,L,-,~,~,~
+Tiger Hang,Throw,5,3,17,KD,~,~,~,130,150,T,-,63,14,14
+Tiger Swing,Back Throw,5,3,17,KD,~,~,~,130,200,T,-,63,14,14
+Tiger Charge,VTrigger 1,1,~,4,~,~,~,~,,,,-,~,~,~
+Tiger Assault,VTrigger 2,1,~,4,~,~,~,~,,,,-,~,~,~
+Angry Charge,VSkill,~,~,55,~,~,~,~,,,,-,~,~,~
+Tiger Revenge,VReversal,17,2,24,KD,-2,~,~,60,,H,-,78,19,24
+Tiger Shot LP,LP High Fireball,13,~,27,2,1,27,26,70,100,H,su/vt1/vt2,~,~,~
+Tiger Shot MP,MP High Fireball,13,~,27,2,1,27,26,70,100,H,su/vt1/vt2,~,~,~
+Tiger Shot HP,HP High Fireball,13,~,27,2,1,27,26,70,100,H,su/vt1/vt2,~,~,~
+Tiger Shot EX,EX High Fireball,11,~,27,KD,6,KD (+135/76/81),29,50*50,75*75,H,vt1/vt2,112,53,58
+Grand Tiger Shot LK,LK Low Fireball,13,~,31,0,-4,27,23,60,100,H,su/vt1/vt2,~,~,~
+Grand Tiger Shot MK,MK Low Fireball,13,~,31,0,-4,27,23,60,100,H,su/vt1/vt2,~,~,~
+Grand Tiger Shot HK,HK Low Fireball,13,~,31,0,-4,27,23,60,100,H,su/vt1/vt2,~,~,~
+Grand Tiger Shot EX,EX Low Fireball,11,~,31,KD,-2,KD (+135/76/81),25,40*40,75*75,H,vt1/vt2,108,49,54
+Tiger Uppercut LP,LP DP,4,9,31+17,KD,-39(-34),~,~,130(110),150(120),H,su,74,15,20
+Tiger Uppercut MP,MP DP,6,9,31+17,KD,-39(-34),~,~,130(110),150(120),H,su,74,15,20
+Tiger Uppercut HP,HP DP,8,9,32+16,KD,-39(-34),~,~,130(110),150(120),H,su,74,15,20
+Tiger Uppercut EX,EX DP,4,9,32+20,KD,-38,~,~,60*20x5 (160),90*110,H,-,77(90),18(31),23(36)
+Tiger Knee Crush LK,LK Knee,12,7,8+13(8+15),KD,-6(0),~,~,80,150,H,-,93(99),34(40),39(45)
+Tiger Knee Crush MK,MK Knee,14,9,9+9(9+11),KD,-9(-1),~,~,90,150,H,-,90(98),31(39),36(44)
+Tiger Knee Crush HK,HK Knee,20,11,7+10(7+14),KD,-7(3),~,~,100,150,H,-,89(99),30(40),35(45)
+Tiger Knee Crush EX,EX Knee,14,9,7+11,KD,-5(3),~,~,40*20x2*80 (160),200,H,-,74,15,20
+Tiger Rampage,Super,1+6,6,61,KD,-42,~,~,340,0,H,-,4,4,4
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

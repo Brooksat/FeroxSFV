@@ -1,0 +1,38 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,3,9,4,2,3,2,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,6,3,15,8,3,14,9,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HP,stand HP,10,3,22,4,-3,17,10,80,150,H,sp/su/vs/vt1/vt2,~,~,~
+stand LK,stand LK,5,2,11,4,3,5,4,40,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,8,3,16,2,-2,9,5,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HK,stand HK,12,3,22,4,-3,17,10,80,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,3,10,3,2,4,3,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,9,2,18,4,-2,12,6,70,100,H,vt1/vt2,~,~,~
+crouch HP,crouch HP,8,3,27,-2,-8,13,9,80,150,H,sp/su/vs/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,9,3,2,2,1,20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,7,2,17,2,-2,9,5,60,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,10,2,24,KD,-12,KD (+87/38/43),2,90,150,L,vt1/vt2,73,24,29
+jump LP,jump LP,4,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,9,4,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,12,3,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,3,5,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,5,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,9,5,~,~,~,~,~,90,150,M,-,~,~,~
+Luftjagd,Divekick,16,~,15,~(7),~(1),~,~,60,100,M,-,~,~,~
+Blaukraehe,Stomp,15,6,14,6,3,14,10,70(40),150(100),L,vt1/vt2,60,11,16
+Psycho Spitze,f+HP,14,2,25,0,-10,15,5,90,150,H,vt1/vt2,94,35,40
+Wirbel Wind,Throw,5,3,17,KD,~,~,~,140,150,T,-,60,11,11
+Luftstrom,Back Throw,5,3,17,KD,~,~,~,150,200,T,-,68,19,19
+Windstoss,Air Throw,5,2,6,KD,~,~,~,140,200,T,-,56(60),7(11),7(11)
+Staerken,VTrigger 1,1,~,5(10),~,~,~,~,,,-,-,~,~,~
+Psycho Angriff,VTrigger 2,10(2),3(17)3,31,KD,-28,~,~,40*100 (140),200,H,-,83,24,29
+Psycho Trombe,VSkill,13,4*4*4*3,22,KD,-10,KD(+100/41/46),3,10x3*30 (60),20x3*40 (100),H,vt1/vt2,87,28,33
+Psycho Impulse,VReversal,17,2,32,KD,-2,~,~,60,,H,-,78,19,24
+Psycho Kugel,Fireball,16,2(2)2(1)2,26,7,2,21,17,20*20*20 (60),40x3 (120),H,su/vt1/vt2,~,~,~
+Psycho Kanonen,Crouch Fireball (sniper),24,20,30,4,-3,25,18,60,150,H,su/vt1/vt2,~,~,~
+Psycho Feder,Air Fireball,16,~,9,~,~,~,~,80,120,H,-,~,~,~
+Psycho Schneide,Upper,8,2(1)3,39,KD,-17,~,~,50*70 (120),70*80 (150),H,su,86,27,32
+EX Psycho Schneide,EX Upper,12,4(1)3,44,KD,-25,~,~,40*40*60 (140),60*60*80 (200),H,-,77,18,23
+Katapult,Vault,16,4,31,KD,-10,~,~,90,150,H,su,75,16,21
+EX Katapult,EX Vault,20,4,22,KD,-10,~,~,40x2 (80),80*70 (150),H,-,111,52,57
+Psycho Fluegel,Super (golf swing),1+3,4,58,KD,-35,~,~,340,0,H,-,13,13,13
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

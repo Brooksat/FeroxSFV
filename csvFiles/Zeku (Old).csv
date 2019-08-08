@@ -1,0 +1,64 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 1 dash oH,xx VTrigger 1 dash oB,xx Transform (Zeku) oH,xx Transform (Zeku) oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,9,4,2,3,1,-11,-13,-11,-13,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,6,2,14,5,3,9,7,-5,-7,-5,-7,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,9,2,30,-2,-5,18,15,4,1,4,1,80,150,H,sp/su/vt1/vt2,85,26,31
+stand LK,stand LK,5,4,6,4,2,2,0,-12,-14,-12,-14,40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,7,3,12,7,2,10,5,-4,-9,~,~,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,13,2,24,5,-2,19,12,5,-2,~,~,90,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,2,7,4,2,1,-1,-13,-15,-13,-15,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,8,2,14,5,1,9,5,-5,-9,~,~,60,100,H,vt1/vt2,~,~,~
+crouch HP,crouch HP,10,4,16,7,2,15,10,1,-4,1,-4,80,150,H,sp/su/vt1/vt2,103,44,49
+crouch LK,crouch LK,5,2,8,4,2,2,0,-12,-14,~,~,20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,8,3,17,2,-2,8,4,-4,-8,~,~,60,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,10,2,25,KD,-8,KD (+95/36/41),7,KD (+75/22/27),-7,~,~,90,150,L,vt1/vt2,74,21,26
+jump LP,jump LP,4,6,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,4,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,8,5,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,4,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,10,4,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Nouten Wari,Overhead,22,1*3,20,1,-6,~,~,~,~,~,~,40*40,50*50,M*M,-,~,~,~
+Tsurigane Otoshi,Throw,5,3,17,KD,~,~,~,~,~,~,~,130,150,T,-,57,8,8
+Mikoshi,Back Throw,5,3,17,KD,~,~,~,~,~,~,~,150,200,T,-,62,13,13
+Fukuro,VSkill,14,4,29,KD,-7,~,~,~,~,~,~,50*50,0*150,H,-,73(72),14(13),19(18)
+Bushinryu Shingekiko,VTrigger 1,1,~,5,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Idaten,VTrigger 1 Dash,~,~,25,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Bakujasho,VTrigger 1 Attack,14(21),6,18,KD,-2,~,~,~,~,~,~,160,200,H,su,89,30,35
+Karura Tenzan,VTrigger 2,1+5,8,22+17,KD,-28,~,~,~,~,~,~,40*20x2*60 (140),150,H,-,92(93),33(34),38(39)
+Karura Tenzan (Secondary),VTrigger 2 (secondary),10,8,22+17,KD,-28,~,~,~,~,~,~,40*20x2*60 (140),150,H,-,92(93),33(34),38(39)
+Toushi,VReversal,12,2,24,2,-2,~,~,~,~,~,~,40,0,H,-,85,26,31
+Shukumyo,Transform,~,~,25,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Gram - Koku LK,LK Forward Gram,14,1,30,KD,-6(-4),~,~,~,~,KD (+69/10/15),~,90,150,H,su/vt2,77,18,23
+Bushin Gram - Koku LK (Projectile),LK Forward Gram (Projectile),15,8,30,4(11),-3(4),~,~,~,~,-2(5),~,60,100,H,su/vt2,~,~,~
+Bushin Gram - Koku MK,MK Forward Gram,20,1,26,KD,-4,~,~,~,~,KD (+68/9/14),~,100,150,H,su/vt2,78,19,24
+Bushin Gram - Koku MK (Projectile),MK Forward Gram (Projectile),21,9,27,2(10),-4(4),~,~,~,~,-5(3),~,70,100,H,su/vt2,~,~,~
+Bushin Gram - Koku HK,HK Forward Gram,25,1,27,KD,-2,~,~,~,~,KD (+68/9/14),~,120,200,H,su/vt2,79,20,25
+Bushin Gram - Koku HK (Projectile),HK Forward Gram (Projectile),26,10,24,2(11),-5(4),~,~,~,~,-5(4),~,90,100,H,su/vt2,~,~,~
+Bushin Gram - Koku EX,EX Forward Gram,17,1,32,KD,1,~,~,~,~,KD (+88/29/34),-27(-6),100*20x2 (140),150,H,vt2,95,36,41
+Bushin Gram - Koku EX (Projectile),EX Forward Gram (Projectile),18,20,39,KD,-1,~,~,~,~,KD (+90/31/36),-27(-6),30x2*50 (110),100,H,vt2,93(112),34(53),39(58)
+Bushin Gram - Teki LK,LK Back Gram,15,2,32,KD,-14,~,~,~,~,KD (+106/47/52),~,70,150,H,vs/su/vt2,104,45,50
+Bushin Gram - Teki LK (Projectile),LK Back Gram (Projectile),17,12,34,KD,-2(9),~,~,~,~,KD (+102/43/48),~,70,100,H,su/vt2,100(111),41(52),46(57)
+Bushin Gram - Teki MK,MK Back Gram,23,2,32,KD,-14,~,~,~,~,KD (+113/54/59),~,80,150,H,vs/su/vt2,111,52,57
+Bushin Gram - Teki MK (Projectile),MK Back Gram (Projectile),25,12,36,KD,-4(7),~,~,~,~,KD (+103/44/49),~,70,100,H,su/vt2,102(113),43(54),48(59)
+Bushin Gram - Teki HK,HK Back Gram,30,2,32,KD,-14,~,~,~,~,KD (+119/60/65),~,120,200,H,vs/su/vt2,117,58,63
+Bushin Gram - Teki HK (Projectile),HK Back Gram (Projectile),32,12,34,KD,-2(9),~,~,~,~,KD (+116/57/62),~,100,100,H,su/vt2,110(121),51(62),56(67)
+Bushin Gram - Teki EX,EX Back Gram,18,2,35,KD,-2,~,~,~,~,KD (+117/58/63),-6(7),60*30x2 (110),150,H,vt2,108,49,54
+Bushin Gram - Teki EX (Projectile),EX Back Gram (Projectile),21,18,33,KD,5(22),~,~,~,~,KD (+122/63/68),-6(7),20x2*50 (90),100,H,vt2,116(133),57(74),62(79)
+Bushin Gram - Ban LK,LK DP,5,2,18+22,KD,-23,~,~,~,~,KD (+74/15/20),~,100,200,H,su/vt2,88,29,34
+Bushin Gram - Ban LK (Projectile),LK DP (Projectile),7,10,17+22,KD,-7(2),~,~,~,~,KD (+85/26/31),~,100,150,H,-,99(108),40(49),45(54)
+Bushin Gram - Ban MK,MK DP,7,2,21+22,KD,-29,~,~,~,~,KD (+74/15/20),~,110,200,H,su/vt2,82,23,28
+Bushin Gram - Ban MK (Projectile),MK DP (Projectile),9,13,20+22,KD,-10(2),~,~,~,~,KD (+82/23/28),~,110,150,H,-,96(108),37(49),42(54)
+Bushin Gram - Ban HK,HK DP,7,2,31+20,KD,-33,~,~,~,~,KD (+74/15/20),~,120,200,H,su/vt2,78,19,24
+Bushin Gram - Ban HK (Projectile),HK DP (Projectile),9,14,30+20,KD,-11(2),~,~,~,~,KD (+74/15/20),~,120,150,H,-,88(101),29(42),34(47)
+Bushin Gram - Ban EX,EX DP,5,1,32+32,KD,-33,~,~,~,~,KD (+73/14/19),~,100*20*30 (150),200,H,vt2,80,21,26
+Bushin Gram - Ban EX (Projectile),EX DP (Projectile),7,14,30+31,KD,-27(-14),~,~,~,~,KD (+72/13/18),~,20x2*80 (120),100,H,-,86(99),27(40),32(45)
+Bushin Jakura,Bushin Flip,29,15,3+9,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Jakura EX,EX Bushin Flip,24,21,1+7,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Gekirinchu,Elbow Drop,29+9,17,15,5(11),-1(5),~,~,~,~,~,~,60,100,H,-,~,~,~
+Bushin Kirinkyaku,Flip Kick,29+6,5,15,4(13),-5(4),~,~,~,~,~,~,60,100,H,-,~,~,~
+Bushin Tengen,Bushin Throw,29+5,2,17,KD,~,~,~,~,~,~,~,70*100,200,T,-,19,19,19
+Bushin Gekirinchu EX,EX Elbow Drop,24+9,17,9,11(16),2(7),~,~,~,~,~,~,80,150,H,-,~,~,~
+Bushin Kirinkyaku EX,EX Flip Kick,24+6,5,9,6(15),-4(5),~,~,~,~,~,~,80,150,H,-,~,~,~
+Bushin Tengen EX,EX Bushin Throw,23+5,2,17,KD,~,~,~,~,~,~,~,100*120,250,T,-,19,19,19
+Batsuzan Gaisei,Super,4,8,47,KD,-33,~,~,~,~,~,~,340,0,H,-,16,16,16
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 1 dash oH,xx VTrigger 1 dash oB,xx Transform (Zeku) oH,xx Transform (Zeku) oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

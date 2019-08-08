@@ -1,0 +1,52 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,3,7,5,3,3,1,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,7,3,14,6,2,11,7,60,100,H,vt1/vt2,~,~,~
+stand HP,stand HP,11,3,20,-1,-6,9,4,90,150,H,sp/su/vs/vt1/vt2,~,~,~
+stand LK,stand LK,3,2,10,0,-2,0,-2,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,7,3,13,2,-2,6,2,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,9,3,13,6,3,10,7,80,150,H,vt1/vt2,110,68,68
+crouch LP,crouch LP,4,3,5,4,3,0,-1,30,70,H,ch/sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,12,3,1,6,4,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,10,5,23,-5,-11,11,5,100,150,H,vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,7,3,2,0,-1,20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,7,2,13,-1,-2,3,2,50,100,L,sp/su/vs/vt1/vt2,~,~,~
+crouch HK,crouch HK,15,10,18,KD,-12,KD (+85/36/41),4,90,150,L,vt1/vt2,69,20,25
+jump LP,jump LP,4,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,3,~,~,~,~,~,50,100,M,-,~,~,~
+jump HP,jump HP,8,6,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,3,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,6,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,8,6,~,~,~,~,~,90,150,M,-,~,~,~
+hell attack,MP > MP (air),7+5,4,~,~,~,~,~,50*63 (113),100*45 (145),M,-,~,~,~
+psycho axe,df+HP,18,3,20,6,1,15,11,80,150,H,vt1/vt2,~,~,~
+shadow axe,MP > df+HP,7+14,3,20,2,-8,11,1,60*45 (105),100*108 (208),H*H,vt1/vt2,~,~,~
+psycho impact,Throw,5,3,17,KD,~,~,~,140,170,T,-,79,20,20
+psycho fall,Back Throw,5,3,17,KD,~,~,~,130,150,T,-,67,18,18
+psycho reflect,VSkill,6,7(9),28,~,~,~,~,,,,-,~,~,~
+psycho reflect (release),VSkill Release,16,~,21,KD,13,~,~,40*40,50*50,H,-,109,50,55
+psycho reflect (parry),VSkill parry attack,11(3),5,25(17),KD,~,~,~,100,150,H,-,85,26,31
+Psycho Power,VTrigger 1,1,~,10,~,~,~,~,,,,-,~,~,~
+Psycho Nightmare,VTrigger 2,1,~,10,~,~,~,~,,,,-,~,~,~
+psycho burst,VReversal,17,2,20,KD,-2,~,~,60,0,H,-,80,21,26
+psycho blast LP,LP Blast,12,10,19,KD,-4,KD (+102/43/48),15,70,100,H,su/vt1,83,24,29
+psycho blast MP,MP Blast,15,10,18,KD,-1,KD (+102/43/48),15,70,100,H,su/vt1,86,27,32
+psycho blast HP,HP Blast,19,10,14,KD,2,KD (+102/43/48),14,70,100,H,su/vt1,90,31,36
+psycho blast EX,EX Blast,15,~,23,KD,6,KD (+125/66/71),17,100,150,H,vt1,114,55,60
+double knee press LK,LK Scissors Kick,11,2(1)3,19,2,-4,4,-2,40*40,50*100,H,su/vt1,~,~,~
+double knee press MK,MK Scissors Kick,14,2(1)3,20,2,-3,5,0,40*50,50*100,H,su/vt1,~,~,~
+double knee press HK,HK Scissors Kick,19,2(2)3,21,2,-2,7,3,50*50,50*100,H,su/vt1,~,~,~
+double knee press EX,EX Scissors Kick,12,6,17,KD,1,~,7,70*25*25*30 (150),0*0*0*200,H,vt1,25,25,25
+head press LK,LK Head Stomp,23,27,7,~,~,~,~,100,200,M,su,~,~,~
+head press MK,MK Head Stomp,23,27,7,~,~,~,~,100,200,M,su,~,~,~
+head press HK,HK Head Stomp,23,27,7,~,~,~,~,100,200,M,su,~,~,~
+head press EX,EX Head Stomp,17,19(39)1,16,KD,~,~,~,60*100 / 120 (air),0*200,M,-,25,25,25
+somersault skull diver,Head Stomp > P,5,10,4,11(16),3(8),~,~,70,100,M,su,~,~,~
+devil reverse,Devil Reverse,15,22,7,KD,2(6),~,~,70,100,M,su,~,~,~
+devil reverse EX,EX Devil Reverse,26,12,10,KD,7(11),~,~,70*70,100*100,M,-,~,~,~
+psycho inferno LP,LP Inferno,14,11,32,KD,-12,KD (+127/68/73),19,25*25*30 (80),40*40*70 (150),H,su/vt1,96,37,42
+psycho inferno MP,MP Inferno,16,13,30,KD,-11,KD (+130/71/76),20,25x3*15 (90),35x3*45 (150),H,su/vt1,99,40,45
+psycho inferno HP,HP Inferno,18,15,31,KD,-10,KD (+135/76/81),24,20x5 (100),30x5 (150),H,su/vt1,104,45,50
+psycho inferno EX,EX Inferno,15,17,23,KD,-1,KD (+138/79/84),27,20x4*60 (140),20x4*70 (150),H,vt1,110,51,56
+ultimate psycho crusher,Super,6,15,44+19,KD,-40,~,~,340,0,H,-,27,27,27
+forward dash,Forward Dash,~,~,22,~,~,~,~,,,,-,~,~,~
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

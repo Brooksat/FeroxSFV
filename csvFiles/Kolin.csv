@@ -1,0 +1,70 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH Gap,xx VTrigger 1 oB Gap,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,3,6,4,2,N/A(-2),-2(-9),6,4,30,70,H,ch/sp/vt1/vt2,~,~,~
+stand MP,stand MP,6,3,13,4,2,N/A,N/A(-2),9(11),7(9),60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,8,3,19,5,-4,N/A,N/A(-2),10,1,80,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,5,3,9,1,-2,-6(-7),-8(-10),5,3,40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,5,3,14,3,-2,N/A(-2),-5(-7),9,4,50,100,H,sp/su/vt1/vt2,~,~,~
+stand HK,stand HK,11,3,20,6,-2,N/A,N/A(-3),10,2,80,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,3,2,8,4,1,N/A(-2),-2(-9),6,3,20,70,H,ch/sp/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,13,5,2,NA,N/A(-2),10,7,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,7,3,23,0,-3,N/A,N/A,8,5,80,150,H,sp/su/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,8,3,1,-5(-7),-7(-9),3(4),1(2),20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,8,3,15,3,1,N/A(-2),-2(-4),7(8),5(6),50,100,L,su/vt1/vt2,~,~,~
+crouch HK,crouch HK,10,2,24,~,~,N/A,N/A,9(10),7(8),60,100,L,sp/su/vt1/vt2,~,~,~
+crouch HK 2nd hit,crouch HK 2nd hit,34,2,24,KD,-12,~,~,~,~,40,50,L,-,84,25,30
+jump LP,jump LP,3,5,~,7(9),4(6),~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,5,6,~,10(12),7(9),~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,7,4,~,12(15),9(12),~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,5,~,5(9),2(6),~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,5,~,9(12),6(9),~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,9,5,~,7(15),4(12),~,~,~,~,90,150,M,-,~,~,~
+icicle stamp,Double Jump,13,~,43,~,~,~,~,~,~,30,70,H,-,~,~,~
+blizzard heel,Overhead,23,2*3,18,1,-6,~,~,~,~,20*40,50*50,M*M,-,~,~,~
+sniping kick,b+HK,14,3,19,3,-2,N/A,N/A,10,5,90,150,H,su/vt1/vt2,93,34,39
+frost spike 1st,LP > MP,4+6,3,17,0,-6,N/A,-4(-6),13,7,30*36 (66),70*54 (124),H*H,vt1/vt2,~,~,~
+frost spike 2nd,LP > MP > HP,4+6+8,3,23,1,-9,N/A,-1(-3),10,0,30*36*48 (114),70*54*64 (188),H*H*H,sp/su/vt1/vt2,~,~,~
+white out 1st,MK > HP,5+8,3,23,-1,-9,N/A,-1(-3),8,0,50*45 (95),100*63 (163),H*H,vt1/vt2,~,~,~
+white out 2nd,MK > HP > MPMK,5+8+10,3,31,KD,-12,N/A,N/A,KD(+105/46/51),15,50*45*48 (143),100*63*80 (243),H*H*H,vt1/vt2,78,19,24
+pressure ridge,Throw,5,3,17,KD,~,~,~,~,~,130,120,T,-,57,8,8
+sublimation,Back Throw,5,3,17,KD,~,~,~,~,~,120,150,T,-,71,12,12
+avalanche lock,Air Throw,5,2,~,KD,~,~,~,~,~,120,200,T,-,63,14,14
+diamond dust,VTrigger 1,17,24,13,KD,32,~,~,~,~,40x3 (120),120x3 (360),H,-,138,79,84
+diamond dust  2nd,VTrigger 2nd hit,19,24,19,KD,26,~,~,~,~,40x3 (120),120x3 (360),H,-,132,73,78
+Absolute Zero,VTrigger 2,1,~,5,~,~,~,~,~,~,,,,-,~,~,~
+Inside Slash,VSkill,15,2,23,2,-8,~,~,~,~,50,100,H,-,~,~,~
+Inside Slash (Counter),VSkill Counter,1,2(20)3,20,KD,~,~,~,~,~,70*80 (50*100),100*100,H,-,79,20,25
+Third Eye,VReversal,~,~,33,~,~,~,~,~,~,,,H,-,~,~,~
+frost touch LP,Low Counter,2,11,34,KD,~,~,~,~,~,200,250,T,-,49,49,49
+frost touch MP,Mid or High Counter,2,11,34,KD,~,~,~,~,~,180,250,T,-,49,49,49
+frost touch HP,Air Counter,2,11,34,KD,~,~,~,~,~,180,250,T,-,46,46,46
+frost touch LPMP,EX Low Counter,1,12,29,KD,~,~,~,~,~,260,300,T,-,49,49,49
+frost touch LPHP,EX Mid or High Counter,1,12,29,KD,~,~,~,~,~,240,300,T,-,49,49,49
+frost touch MPHP,EX Air Counter,1,12,29,KD,~,~,~,~,~,240,300,T,-,46,46,46
+parabellum LP,LP Hands,9,2(5)2(5)2(5)2,17,2,-4,~,~,~,~,15x3*25 (70),25x3*75 (150),H,su,~,~,~
+parabellum MP,MP Hands,14,2(5)2(5)2(5)2(5)2,21,4,-6,~,~,~,~,15x4*20 (80),25x4*50 (150),H,su,~,~,~
+parabellum HP,HP Hands,18,2(5)2(5)2(5)2(5)2(30)2,31,KD,-9,~,~,~,~,50x5*50 (100),25x6 (150),H,su,79,20,25
+parabellum EX,EX Hands,9,2(5)2(5)2(5)2(5)2,22,KD,-7,~,~,~,~,10x4*15x2*30 (100),150,H,sp,112,53,58
+hailstorm LP,LP Hailstorm,12,5,25,KD,-8,~,~,~,~,50,100,H,-,87,28,33
+hailstorm MP,MP Hailstorm,12,5,28,KD,-11,~,~,~,~,50,100,H,-,84,25,30
+hailstorm HP,HP Hailstorm,12,5,28,KD,-11,~,~,~,~,50,100,H,-,84,25,30
+hailstorm LP projectile,LP Snowball,50,33,~,26,23,~,~,~,~,50,100,H,-,~,~,~
+hailstorm MP projectile,MP Snowball,53,33,~,28,25,~,~,~,~,50,100,H,-,~,~,~
+hailstorm HP projectile,HP Snowball,52,43,~,23,20,~,~,~,~,50,100,H,-,~,~,~
+hailstorm LPMP,LPMP Hailstorm,12,5,25,KD,-8,~,~,~,~,50,100,H,-,84,25,30
+hailstorm LPHP,LPHP Hailstorm,12,5,25,KD,-8,~,~,~,~,50,100,H,-,84,25,30
+hailstorm MPHP,MPHP Hailstorm,12,5,25,KD,-8,~,~,~,~,50,100,H,-,84,25,30
+hailstorm projectile EX,EX Snowball,35*49,~,~,21,18,~,~,~,~,50x2,100x2,H,-,~,~,~
+vanity step LK,LK Step,23,~,20,~,~,~,~,~,~,,,-,-,~,~,~
+> silver edge,Dash Punch,23+8,9,23,KD,-12,~,~,~,~,100,150,H,su,82,23,28
+vanity step MK,MK Step,38,~,8,~,~,~,~,~,~,,,-,-,~,~,~
+> cold low,MK Step > d+LK > d+HK,Step + 4,2(11)2(23)2,24,KD,-12,N/A,N/A,20,18,20*54*36 (110),70*90*45 (205),L*L,sp/su/vt1/vt2,84,25,30
+> brinicle,MK Step > d+LK > d+HP,Step + 4,2(9)3,21(27),KD,-2,N/A,N/A,KD(+128/69/74),15,20*81 (101),70*135 (205),L*H,sp/su/vt1/vt2,106,47,52
+> snow grain,MK Step > d+MP > HP,Step + 6,3(10)3,19,5,-8,N/A,-4(-6),20,7,60*81 (141),100*135 (235),H*H,sp/su/vt1/vt2,~,~,~
+vanity step HK,HK Step,46,~,21+4,~,~,~,~,~,~,,,-,-,~,~,~
+> white spear,HK Step > LK > MK,Step + 3,5(3)1,4,12,9,~,~,~,~,40*63 (103),70*90 (160),M*M,-,~,~,~
+vanity step LKMK,LKMK Step,21,~,11,~,~,~,~,~,~,,,-,-,~,~,~
+> silver edge EX,EX Dash Punch,21+5,9,18,KD,-9,~,~,~,~,160,200,H,-,92,33,38
+vanity step LKHK,LKHK Step,32,~,6,~,~,~,~,~,~,,,-,-,~,~,~
+vanity step MKHK,MKHK Step,36,~,19+4,~,~,~,~,~,~,,,-,-,~,~,~
+frost tower,Super,7,3,52,KD,-37,~,~,~,~,330,0,H,-,75,26,26
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH Gap,xx VTrigger 1 oB Gap,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

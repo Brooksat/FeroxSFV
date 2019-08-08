@@ -14,13 +14,13 @@ if (!$conn) {
 }
 
 
-$csvNamesFile = "names.csv";
+$csvNamesFile = "csvFiles\\names.csv";
 
-$csvNames = fopen('names.csv', 'r');
+$csvNames = fopen($csvNamesFile, 'r');
 
 while (($data = fgetcsv($csvNames)) !== FALSE) {
     //print($data[0]);
-    $sql = "INSERT INTO `characters` (`Name`) VALUES ('$data[0]')";
+    $sql = "INSERT INTO `characters` (`character_name`) VALUES ('$data[0]')";
 
 
     echo ("Attempting to add: " . $data[0] . "<br>");

@@ -1,0 +1,52 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,5,2,10,4,3,-3,-4,-24,-25,40,90,H,sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,7,2,16,4,1,3,0,-18,-21,60,120,H,sp/su/vs/vt1/vt2,~,~,~
+stand HP,stand HP,14,2,22,4,-6,5,-5,-16,-26,90,150,H,vt1/vt2,~,~,~
+stand LK,stand LK,4,3,6,6,3,-4,-7,-25,-28,30,90,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,9,3,16,2,-2,2,-2,-19,-23,60,120,H,vt1/vt2,~,~,~
+stand HK,stand HK,12,3,20,7,0,11,4,-10,-17,100,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,5,3,10,4,2,-2,-4,-23,-25,40,90,H,vt1/vt2,~,~,~
+crouch MP,crouch MP,6,5,16,0,-5,1,-4,-20,-25,70,120,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,11,4,26,KD,-9,KD (+103/43/48),2,KD (+82/22/27),-19,80,150,H,sp/su/vs/vt1/vt2,93,32,37
+crouch LK,crouch LK,5,2,11,4,2,-2,-4,-23,-25,30,90,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,10,2,18,-1,-4,0,-3,-21,-24,60,120,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,12,3,25,KD,-14,KD (+78/29/34),-5,KD (+57/8/13),-26,100,150,L,vt1/vt2,69,20,25
+jump LP,jump LP,4,5,~,~,~,~,~,~,~,50,90,M,-,~,~,~
+jump MP,jump MP,7,6,~,~,~,~,~,~,~,70,120,M,-,~,~,~
+jump HP,jump HP,7,5,~,~,~,~,~,~,~,100,150,M,-,~,~,~
+jump LK,jump LK,5,5,~,~,~,~,~,~,~,50,90,M,-,~,~,~
+jump MK,jump MK,7,4,~,~,~,~,~,~,~,70,120,M,-,~,~,~
+jump HK,jump HK,9,5,~,~,~,~,~,~,~,100,150,M,-,~,~,~
+Bull Charge,f+HP Shoulder tackle,25,4,18,3,-8,~,~,~,~,80,150,H,-,110,49,54
+Bull Slider,df+HP,19,6,21,-1,-8,~,~,~,~,90,150,L,-,~,~,~
+Bull Drop,f+HK,7,3(12)4,18,2,-6,~,~,~,~,40*80,50*100,H*M,-,~,~,~
+Bad Hammer,d+HP > HP,11+7,5,31,KD,-12,~,~,~,~,80*81,150*135,H*H,-,62,1,6
+Bad Skull,Throw,5,3,17,KD,~,~,~,~,~,120,150,T,-,71,12,12
+Bad Chain,Back Throw,5,3,17,KD,~,~,~,~,~,140,200,T,-,74,15,15
+Break Time,VSkill (Donut),40,~,12,~,~,~,~,~,~,,,,-,~,~,~
+Banana Time,VSkill (Banana),50,200,9,29,2,~,~,~,~,10,0,H,-,29,29,29
+Drink Time,VSkill (Can),50,~,11,28,10,~,~,~,~,10,0,H,-,28,28,28
+Enjoy Time,VTrigger 1,12,16,3,KD,~,~,~,~,~,,,,-,106,47,52
+Birdie Time,VTrigger 2,1+4,20,15,KD,~,~,~,~,~,100,100,,-,~,~,~
+Pepper Pot,VReversal,17,2,19,KD,-2,~,~,~,~,60,0,H,-,82,23,28
+Bull Head LP,LP Lunge,14,3,29,KD,-10,KD (+97/38/43),2,KD (+76/17/22),-19,100,200,H,su/vt1/vt2,85,26,31
+Bull Head MP,MP Lunge,18,3,30,KD,-10,KD (+97/38/43),3,KD (+76/17/22),-18,110,200,H,su/vt1/vt2,84,25,30
+Bull Head HP,HP Lunge,27,3,24,KD,-5,KD (+97/38/43),2,KD (+76/17/22),-19,140,200,H,su/vt1/vt2,90,31,36
+Bull Head EX,EX Lunge,14,4(26)4,28,KD,-5,16 * KD (+98/39/44),13*6,-5 * KD (+77/18/23),-8*-18,75*75 (150),100*150 (250),H*H,vt1/vt2,90,31,37
+Bull Horn,Headbutt,15,6,15+14,KD,-18,KD (+105/46/51),-2,KD (+84/25/30),-23,120,200,H,su/vt1/vt2,89,30,35
+Bull Horn EX,EX Headbutt,15,9(11)4,32,KD,-21,KD (+102/43/48),-7,KD (+100/41/46),-26,75*75 (150),50*200 (250),H*H,vt1/vt2,88,29,34
+Killing Head LP,LP Command Grab,5,2,60,KD,~,~,~,~,~,20*160 (180),40*160 (200),T,-,82,23,23
+Killing Head MP,MP Command Grab,5,2,60,KD,~,~,~,~,~,20*20*150 (190),40x2*140 (220),T,-,82,23,23
+Killing Head HP,HP Command Grab,5,2,60,KD,~,~,~,~,~,20x3*140 (200),40x3*120 (240),T,-,82,23,23
+Killing Head EX,EX Command Grab,5,2,60,KD,~,~,~,~,~,10x6*160 (220),30x6*90 (270),T,-,82,23,23
+Hanging Chain LK,LK Chain,25,16,24,KD,-23,~,~,~,~,120,200,H,-,80,21,21
+Hanging Chain MK,MK Chain,25(21),16,24,KD,-23,~,~,~,~,150,200,H,-,68,19,19
+Hanging Chain HK,HK Chain,25,16,31,KD,~,~,~,~,~,160,200,H,-,81,22,22
+Hanging Chain EX,EX Chain,15,17,21,KD,-21,~,~,~,~,70*100 (170),100*120 (220),H,-,78,29,29
+Hanging Chain Cancel,Chain Cancel,~,~,17,~,~,~,~,~,~,,,,-,~,~,~
+Bull Revenger LK,LK Dolphin Grab,35,2,28,KD,~,~,~,~,~,70*70*30 (170),100*100*30 (230),T,-,75,26,26
+Bull Revenger MK,MK Dolphin Grab,40,2,28,KD,~,~,~,~,~,70*70*40 (180),100*100*30 (230),T,-,75,26,26
+Bull Revenger HK,HK Dolphin Grab,43,2,28,KD,~,~,~,~,~,70*70*50 (190),100*100*30 (230),T,-,75,26,26
+Bull Revenger EX,EX Dolphin Grab,23(30),11,47,KD,~,~,~,~,~,50*50*80 (180),50*50*130 (230),T,-,69,20,20
+Skip To My Chain,Super,6,5,60,KD,-30,~,~,~,~,50x3*190,0*0*0*0,H,-,36,36,36
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

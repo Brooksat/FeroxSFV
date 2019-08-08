@@ -1,0 +1,49 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,xx LK Cmd Dash oH,xx LK Cmd Dash oB,xx EX Cmd Dash oH,xx EX Cmd Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,7,4,2,2,0,-12,-14,-9,-11,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,5,3,12,4,1,8,5,-6,-9,-3,-6,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,7,4,22,2,-5,13,9,2,-5,5,-2,80,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,4,3,8,4,2,4,2,-10,-12,-7,-9,40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,8,3,16,2,-4,5,-1,~,~,~,~,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,12,2,23,0,-4,14,10,~,~,~,~,80,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,3,2,8,3,2,1,0,-13(-12),-14(-13),-10(-9),-11(-10),20,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,5,4,10,6,2,9,5,-5,-9,-2,-6,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,7,4,22,-3,-7,10(13),6(7),-4(1),-8(-5),-1(4),-5(-1),90,150,H,sp/su/vt1/vt2,105,46,51
+crouch LK,crouch LK,4,2,8,2,0,1,-1,-13,-15,-10,-12,30,70,L,sp/su/vt1/vt2,~,~,~
+crouch MK,crouch MK,6,2,13,-1,-4,3,0,-11(-10),-14(-13),-8(-7),-11(-10),50,100,L,sp/su/vt1/vt2,~,~,~
+crouch HK,crouch HK,9,3,23,KD,-14,KD (+85/36/41),4,~,~,~,~,90,150,L,vt1/vt2,67,18,23
+jump LP,jump LP,3,5,~,6(9),3(6),~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,6,6,~,11(12),8(9),~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,7,5,~,12(15),9(12),~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,6(9),3(6),~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,6,~,9(12),6(9),~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,9,4,~,12(15),9(12),~,~,~,~,~,~,90,150,M,-,~,~,~
+Ku-Renge,Just Frame Tenko,1+6,4,20,KD,-10,~,~,~,~,~,~,70,100,H,-,105,46,51
+Tsumujigari,Late Tenko,4+9,3,21,KD,-10,~,~,~,~,~,~,60,100,H,-,106,47,52
+Hajotsui,EX Tenko,2+6,4,18,KD,-7,~,~,~,~,~,~,100,150,H,-,107,48,53
+Arakuma Inashi,Air Target Combo,6+7,6(6)1,~,KD,~,~,~,~,~,~,~,60*54,100*90,M,-,72,13,18
+Myo-Oken,Overhead,22,2,21,0,-6,~,~,~,~,~,~,60,100,M,-,~,~,~
+Myo-Oken (hold),Throw,5,3,17,KD,~,~,~,~,~,~,~,130,120,T,-,64,5,5
+Guren No Kata,Back Throw,5,3,17,KD,~,~,~,~,~,~,~,150,200,T,-,61,2,2
+Tenha No Kata,VSkill,14,5,17,KD,-5,KD (+102/43/48),5,~,~,~,~,50,100,H,vt1/vt2,92,33,38
+Ressencho,VSkill (hold),21,5,18,KD,-2,KD (+110/51/56),14,~,~,~,~,70,150,H,vt1/vt2,94,35,40
+kanzuki-ryu hokojutsu sappo LK,VTrigger 1,1,~,4,~,~,~,~,~,~,~,~,,,,-,~,~,~
+kanzuki-ryu hokojutsu sappo MK,VTrigger 2,1,~,4,~,~,~,~,~,~,~,~,,,,-,~,~,~
+kanzuki-ryu hokojutsu sappo HK,VReversal,16,2,24,KD,-2,~,~,~,~,~,~,60,0,H,-,79,20,25
+kanzuki-ryu hokojutsu sappo EX,LK Command Dash,~,~,24,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Just Frame Tenko,MK Command Dash,~,~,25,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Late Tenko,HK Command Dash,~,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+EX Tenko,EX Command Dash,~,~,21,~,~,~,~,~,~,~,~,,,,-,~,~,~
+orochi,Shoulder,4+11,4,20,2,-2,~,~,~,~,~,~,80,150,H,su,~,~,~
+orochi EX,EX Shoulder,2+12,4,27,KD,-7,~,~,~,~,~,~,140,200,H,su,80,48,48
+mujinkyaku LK,LK Tatsu,11,3(6)3,19,2,-7,~,~,~,~,~,~,30*40,50*50,H*H,su,~,~,~
+mujinkyaku MK,MK Tatsu,11,3(6)3(18)2,23,2,-6,~,~,~,~,~,~,30*40*90,50*40*150,H*H*M,su,~,~,~
+mujinkyaku HK,HK Tatsu,13,3(7)3(18)3(9)3,31,KD,-15,~,~,~,~,~,~,30*40*25*25,50*40*30*60,H*H*H*H,su,83,24,29
+mujinkyaku EX,EX Tatsu,8,2(5)2(7)3(6)5,17,KD,-2,~,~,~,~,~,~,15*15*30*30*60,0*0*0*0*200,H,-,79,15,20
+ressenha LP,LP Hop Punch,16,2(8)3,19,2,-6,~,~,~,~,~,~,70,50*50,H*M,su,~,~,~
+ressenha MP,MP Hop Punch,21,2(8)4,18,2,-5,~,~,~,~,~,~,80,50*100,H*M,su,~,~,~
+ressenha HP,HP Hop Punch,26,2(8)3,17,1,-4,~,~,~,~,~,~,90,50*100,H*M,su,~,~,~
+ressenha EX,EX Hop Punch,5,2(6)2(5)2,22+13,KD,-41,~,~,~,~,~,~,30*40*70,50*50*100,H,-,71,12,17
+senha kusabi,Hop Punch > Slide,15,8,20,KD,-9,~,~,~,~,~,~,80,100,H*M*L,-,69,20,25
+senha resshu,Hop Punch > Grab,23,2,22,KD,~,~,~,~,~,~,~,120,150,H*M*H,-,28,28,28
+kanzuki-ryu hadorokushiki hasha no kata,Super,5,4(14)7(13)2,14+24,KD,-18,~,~,~,~,~,~,340,0,H,-,2,2,2
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,xx LK Cmd Dash oH,xx LK Cmd Dash oB,xx EX Cmd Dash oH,xx EX Cmd Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

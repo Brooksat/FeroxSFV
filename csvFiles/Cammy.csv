@@ -1,0 +1,56 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 Dash oH,xx VTrigger 2 Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,6,4,2,3,1,-3(-8),-5(-10),30,70,H,ch/sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,6,3,9,7,3,10,6,4(-1),0(-5),60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,6,2,20,1,-3,9,5,5(3),1(-4),80,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,4,2,7,2,1,2,1,-4(-9),-5(-10),40,70,H,vt1/vt2,~,~,~
+stand MK,stand MK,8,3,15,2,-2,4,0,-2(-7),-6(-11),60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,9,4,17(20),4,-2,13,7,8(3),2(-3),90,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,3,3,6,4,0,4,0,-2(-7),-6(-11),20,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,5,3,10(12),5,1,8,4,2(-3),-2(-7),60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,9,3,20,1,-2,12,9,9(4),6(1),80,150,H,su/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,9,1,-1,3,1,-3(-8),-5(-10),20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,7,2,14,0,-3,4,1,-1(-6),-4(-9),50,100,L,sp/su/vt1/vt2,~,~,~
+crouch HK,crouch HK,7,2,22,KD,-12,KD (+81/32/37),0,KD (+78/29/34) / (+73/24/29),-3(-8),90,150,L,vt1/vt2,69,20,25
+jump LP,jump LP,3,5,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,5,5,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,7,5,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,3,5,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,5,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HK,jump HK,7,5,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Knee Bullet,f+HK,12,2(5)2,17,5,-2,~,~,~,~,40*40,150,H*H,-,~,~,~
+Lift Upper,b+MP,4,4,14,4,1,10,7,7(2),4(-1),60,100,H,sp/su/vt1/vt2,~,~,~
+Lift Combination,b+MP > HK,4+9,4,27,KD,-12,~,~,~,~,60*72,100*90,H*H,sp/su,87,28,33
+Gyro Clipper,Throw,5,3,17,KD,~,~,~,~,~,130,120,T,-,58,9,9
+Delta Through,Back Throw,5,3,17,KD,~,~,~,~,~,150,200,T,-,64,15,15
+Neck Spiral,Air Throw,5,2,6,KD,~,~,~,~,~,150,200,T,-,55,6,6
+Delta Drive,VTrigger 1,1,~,8,~,~,~,~,~,~,,,,-,~,~,~
+Delta Step,VTrigger 2 Dash,1,~,13,~,~,~,~,~,~,,,,-,~,~,~
+Delta Ambush,VTrigger 2 Jump,12,~,10,~,~,~,~,~,~,,,,-,~,~,~
+Delta Twist,VTrigger 2 Throw,12+5,2,9,7,~,~,~,~,~,120,0,T,-,~,~,~
+Reverse Edge,VTrigger 2 Flip Kick,12+10,4*3,9,5(6),-11(-10),~,~,~,~,40*30,70*30,M*H,-,~,~,~
+Axel Spin Knuckle,VSkill,35(36),2,13,7,2,~,~,~,~,60,100,H,-,~,~,~
+Strike Back,VReversal,17,2,24,2,-6,~,~,~,~,60,0,H,-,~,~,~
+Spiral Arrow LK,LK Spiral Arrow,7,11,6+19,KD,-12,~,~,~,~,70,120,H,su,85,26,31
+Spiral Arrow MK,MK Spiral Arrow,7,13,6+18,KD,-15,~,~,~,~,80,120,H,su,79,20,25
+Spiral Arrow HK,HK Spiral Arrow,7,2(1)11,7+19,KD,-12,~,~,~,~,50*50,50*70,H*H,su,79,20,25
+Spiral Arrow EX,EX Spiral Arrow,7,2(2)10,5+18,KD,-11,~,~,~,~,70*70,50*150,H*H,-,80,21,26
+Cannon Spike LK,LK DP,4,11,22+14,KD,-37,~,~,~,~,120(80),150,H,su,79,20,25
+Cannon Spike MK,MK DP,5,11,25+14,KD,-37,~,~,~,~,120(80),150,H,su,79,20,25
+Cannon Spike HK,HK DP,6,11,25+14,KD,-37,~,~,~,~,120(80),150,H,su,79,20,25
+Cannon Spike EX,EX DP,3,11,24+14,KD,-37,~,~,~,~,50*50*60,50*50*100,H,-,77,18,23
+Cannon Strike LK,LK Divekick,13,11,9,0(8),-5(2),~,~,~,~,60,100,H,-,~,~,~
+Cannon Strike MK,MK Divekick,13,11,9,0(8),-5(2),~,~,~,~,60,100,H,-,~,~,~
+Cannon Strike HK,HK Divekick,13,11,9,-1(7),-5(2),~,~,~,~,60,100,H,-,~,~,~
+Cannon Strike EX,EX Divekick,13,11,13,KD,-5(4),~,~,~,~,80,100,H,-,~,~,~
+Hooligan Combination LP,LP Hooligan,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Hooligan Combination MP,MP Hooligan,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Hooligan Combination HP,HP Hooligan,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Hooligan Combination EX,EX Hooligan,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Razor Edge Slicer,Hooligan > Slide,39+10,9,13,KD,-2,~,~,~,~,100,150,L,-,94,35,40
+Razor Edge Slicer EX,EX Hooligan > Slide,39+10,9,13,KD,3,~,~,~,~,50*50*50,50*50*100,L*L*L,-,97,38,43
+Fatal Leg Twister,Hooligan > Throw,24+4,2,10,KD,KD,~,~,~,~,150,250,T,-,55,6,6
+Cross Scissors Pressure,Hooligan > Air Throw,24+4,2,10,KD,KD,~,~,~,~,150,250,T,-,78,19,19
+Cannon Strike (Hooligan),Hooligan > Divekick,24+15,11,9,4(9),0(5),~,~,~,~,60,100,H,-,~,~,~
+Cannon Strike EX (Hooligan),EX Hooligan > Divekick,14+13,11,13,KD,-2(6),~,~,~,~,80,100,H,-,105,46,51
+Cross Stinger Assault,Super,3,9,39,KD,-30,~,~,~,~,330,0,H,-,93,44,44
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 Dash oH,xx VTrigger 2 Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
