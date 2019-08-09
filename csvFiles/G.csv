@@ -1,0 +1,76 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,8,5,3,4,2,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,6,3,12,7,3,11,7,60,100,H,vt1/vt2,~,~,~
+stand HP,stand HP,11,4,21,3,-3,16,10,80,150,H,sp/su/vs/vt1/vt2,99,40,45
+stand LK,stand LK,5,3,10,4,1,6,3,40,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,9,3,17,2,-2,16,12,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,9,3(3)2,23(25),2,-5,19*21,14*14,50*40(80),75*75(100),H,su/vt1/vt2,67(71),8(12),13(17)
+crouch LP,crouch LP,4,3,8,5,2,4,1,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,7,3,15,5,2,11,8,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,8,4,21,1,-3,9,5,90(80),150(100),H,sp/su/vs/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,9,4,1,4,1,20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,8,3,14,3,0,9,6,60,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,10,2,28,KD,-14,KD (+86/37/42),5,100,150,L,vt1/vt2,67,18,23
+jump LP,jump LP,3,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,6,~,KD,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,9,5,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,7,~,~,~,~,~,40,70,M,vs,~,~,~
+jump MK,jump MK,5,6,~,~,~,~,~,70,100,M,-,~,~,~
+jump HK,jump HK,11,5,~,~,~,~,~,90,150,M,-,~,~,~
+Flying President,Flying President,9,7,~,~,~,~,~,60,100,M,-,~,~,~
+Wing President,Spinning Back Fist,15,3,22,2,-4,21,15,90,150,H,vt1/vt2,~,~,~
+Strong President,b+HP,9,1*4,23,KD,-5(-6),KD (+115/56/61),10,40*40,50*50,H*H,sp/su/vs/vt1/vt2,100,41,46
+Crash President,Overhead,25,2,22,1,-7,~,~,90,150,M,-,~,~,~
+Message To The People (Speech 1),Speech 1 (LK+MK),~,~,69(1660),~,~,~,~,,,-,-,~,~,~
+Message To The People (Speech 2),Speech 2 (MK+HK),~,~,69(1760),~,~,~,~,,,-,-,~,~,~
+Message To The People (Speech 3),Speech 3 (LK+HK),~,~,69(1720),~,~,~,~,,,-,-,~,~,~
+Violence President,Throw,5,3,17,KD,~,~,~,130,150,T,-,62,13,13
+Destroy President,Back Throw,5,3,17,KD,~,~,~,130,200,T,-,67,18,18
+Shining President,Crouch Throw,5,3,17,KD,~,~,~,140,200,T,-,62,13,13
+Maximum President,VTrigger 1,1,~,4,~,~,~,~,,,-,-,~,~,~
+Dangerous President,VTrigger 2,1,~,4,~,~,~,~,,,-,-,~,~,~
+G Barrier,VSkill,13(9),13(27),25(35)(23),KD,-17,KD (+116/57/62),5,50,100,H,vt1/vt2,94,35,40
+Airborne G Barrier,VSkill (air),13(9),16(26),11,KD,~,~,~,50,100,H,-,~,~,~
+G Revenge,VReversal,17,2,24,KD,-2,~,~,60,,H,-,75,16,21
+Neutral Attack,Idle Attack,3867,15,~,KD,~,~,~,500,500,H,-,243,243,243
+G Smash Over LP (Level 1),LP Dash Straight (Level 1),16,5,21,KD,-4,~,~,100,100,H,su,96,37,42
+G Smash Over MP (Level 1),MP Dash Straight (Level 1),20,5,21,KD,-4,~,~,100,100,H,su,96,37,42
+G Smash Over HP (Level 1),HP Dash Straight (Level 1),22(25),5,21,KD,-4,~,~,100,100,H,su,100,41,46
+G Smash Over LP (Level 2),LP Dash Straight (Level 2),16,5,21,KD,-4,~,~,120,120,H,su,101,42,47
+G Smash Over MP (Level 2),MP Dash Straight (Level 2),20,5,21,KD,-4,~,~,120,120,H,su,104,45,50
+G Smash Over HP (Level 2),HP Dash Straight (Level 2),22(25),5,21,KD,-4,~,~,120,120,H,su,108,49,54
+G Smash Over (Level 3),Dash Straight (Level 3),13,5,22,KD,-6,KD (+111/52/52),10,50*50,60*60,H,su/vt1/vt2,102(95~102),43(36~43),43(36~43)
+G Smash Over EX,EX Dash Straight,13,5,22,KD,-6,KD (+111/52/52),10,50*50,60*60,H,vt1/vt2,102(95~102),43(36~43),43(36~43)
+G Smash Under LK (Level 1),LK Dash Low (Level 1),13,5,25,KD,-8,~,~,80,100,L,su,76,27,32
+G Smash Under MK (Level 1),MK Dash Low (Level 1),16,5,25,KD,-8,~,~,80,100,L,su,76,27,32
+G Smash Under HK (Level 1),HK Dash Low (Level 1),20(23),5,25,KD,-8,~,~,80,100,L,su,78,29,34
+G Smash Under LK (Level 2),LK Dash Low (Level 2),13,5,25,KD,-8,~,~,100,150,L,su,76,27,32
+G Smash Under MK (Level 2),MK Dash Low (Level 2),16,5,25,KD,-6,~,~,100,150,L,su,78,29,34
+G Smash Under HK (Level 2),HK Dash Low (Level 2),20(23),5,25,KD,-6,~,~,100,150,L,su,79,30,35
+G Smash Under (Level 3),Dash Low (Level 3),13(18),5,22,KD,-8,KD (+95/46/51),4,50*60,75*75,L,su/vt1/vt2,85,26,31
+G Smash Under EX,EX Dash Low,13(18),5,22,KD,-8,KD (+95/46/51),4,50*60,75*75,L,vt1/vt2,85,26,31
+G Burst LP (Level 1),LP Fireball (Level 1),15,11,31,-3,-8,~,~,50,100,H,su,~,~,~
+G Burst MP (Level 1),MP Fireball (Level 1),20,11,29,-1,-6,~,~,50,100,H,su,~,~,~
+G Burst HP (Level 1),HP Fireball (Level 1),25,11,27,1,-4,~,~,50,100,H,su,~,~,~
+G Burst LP (Level 2),LP Fireball (Level 2),15,11,31,0,-5,~,~,40*40,75*75,H,su,~,~,~
+G Burst MP (Level 2),MP Fireball (Level 2),20,11,29,2,-3,~,~,40*40,75*75,H,su,~,~,~
+G Burst HP (Level 2),HP Fireball (Level 2),25,11,27,4,-1,~,~,40*40,75*75,H,su,~,~,~
+G Burst (Level 3),Fireball (Level 3),15,13*16,49,KD,-2,KD (+144/85/90),34,50*50,75*75,H,su/vt1/vt2,108,49,54
+G Burst EX,EX Fireball,15,13*16,49,KD,-2,KD (+144/85/90),34,50*50,75*75,H,vt1/vt2,108,49,54
+G Spin Kick LK (Level 1),LK Spineroonis (Level 1),20(25),7,4+16,3,-5,~,~,70,150,H,-,~,~,~
+G Spin Kick MK (Level 1),MK Spineroonis (Level 1),25(30),7,4+18,3,-5,~,~,70,150,H,-,~,~,~
+G Spin Kick HK (Level 1),HK Spineroonis (Level 1),28(33),7,3+19,3,-5,~,~,70,150,H,-,~,~,~
+G Spin Kick LK (Level 2),LK Spineroonis (Level 2),17(25),2(1)7,3+16,5,-5,~,~,50,100,H,-,~,~,~
+G Spin Kick MK (Level 2),MK Spineroonis (Level 2),22(30),2(1)7,3+19,5,-5,~,~,50,100,H,-,~,~,~
+G Spin Kick HK (Level 2),HK Spineroonis (Level 2),25(33),2(1)7,3+19,5,-5,~,~,50,100,H,-,~,~,~
+G Spin Kick (Level 3),Spineroonis (Level 3),20(25),7,4+18,KD,-2,~,~,30x2*50 (110),150,H,-,98,39,44
+G Spin Kick EX,EX Spineroonis,20(25),7,4+18,KD,-2,~,~,30x2*50 (110),150,H,-,98,39,44
+G Impact (Level 1),Command Grab (Level 1),12(7),2,60,KD,~,~,~,60,100,T,-,108,49,49
+G Impact (Level 2),Command Grab (Level 2),12(7),2,60,KD,~,~,~,30*40,120,T,sp/su/vs,113,54,54
+G Impact (Level 3),Command Grab (Level 3),12(7),2,60,KD,~,~,~,20*30x2 (80),120,T,sp/su/vs,108,49,49
+G Impact EX,EX Command Grab,12(7),2,60,KD,~,~,~,20*30x2 (80),120,T,sp/su/vs,108,49,49
+G Charge,Charge,~,~,64,~,~,~,~,,,,-,~,~,~
+G Charge (Hold),Charge (Hold),~,~,128,~,~,~,~,,,,-,~,~,~
+G Charge (Cancel),Charge (Cancel),~,~,69,~,~,~,~,,,,-,~,~,~
+Pangaea Burst,Super,1+5,13*13*13,113,KD,-24(-52),~,~,50x5*80 (330),0,H,-,101(73),42(14),47(12)
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

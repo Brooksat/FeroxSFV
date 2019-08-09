@@ -1,0 +1,47 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,xx VSkill oH,xx VSkill oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,3,2,9,3,1,3,1,-9,-10,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,6,5,11,4,3,9,8,-1,-2,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HP,stand HP,8,3,18,4,-2,13,7,1(3),-5(-3),80,150,H,sp/su/vs/vt1/vt2,~,~,~
+stand LK,stand LK,4,3,9,4,3,4,3,-6(-5),-7(-6),30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,7,4,14,4,-2,10,4,0(1),-6(-5),60,100,H,vs/vt1/vt2,~,~,~
+stand HK,stand HK,12,3,19,1,-4,12,7,~,~,90,150,H,su/vt1/vt2,~,~,~
+crouch LP,crouch LP,4,2,8,4,2,3,1,-7,-9,30,70,H,ch/sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,5,2,15,3,2,9,8,-1,-2,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,7,4,17,2,-2,12,8,-1(2),-5(-2),90,150,H,sp/su/vs/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,8,2,0,1,-1,-9,-10,20,70,L,ch/sp/su/vs/vt1/vt2,~,~,~
+crouch MK,crouch MK,7,3,13,0,-1,5,4,-6(-5),-7(-6),50,100,L,sp/su/vs/vt1/vt2,~,~,~
+crouch HK,crouch HK,9,3,20(22),KD,-14,KD (+86/37/42),0,~,~,90,150,L,vt1/vt2,74,25,30
+jump LP,jump LP,3,5,~,8(9),5(6),~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,4,3,~,12,9,~,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,7,5,~,11(15),8(12),~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,10,~,5(9),2(6),~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,5,7,~,8(12),5(9),~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,5,6,~,11(15),8(12),~,~,~,~,90,150,M,-,~,~,~
+step elbow,f+HP,17,2,17,4,-2,12,6,~,~,80,120,H,vt1/vt2,~,~,~
+twist barrage,f+HP > HP,17+9,3,21,KD,-8,KD (+104/43/48),3,~,~,54,90,H*H,sp/su/vt1/vt2,93,32,37
+dual crash,MP > MK,6+7,3,18,KD,2,KD (+104/45/50),6,~,~,60*54 (114),100*90 (190),H*H,vs/vt1/vt2,96,37,42
+seoi throw,Throw,5,3,17,KD,KD,~,~,~,~,120,150,T,-,64,15,15
+pullback hold,Back Throw,5,3,17,KD,KD,~,~,~,~,120,150,T,-,65,16,16
+volty line,VSkill Overhead,20,6,22,2,-7,~,~,~,~,70,130,M,-,93,44,49
+linear movement avante,VSkill Fwd,~,~,21,~,~,~,~,~,~,,,,-,~,~,~
+linear movement equiva,VSkill Back,~,~,26,~,~,~,~,~,~,,,,-,~,~,~
+linear movement finta,VSkill Back > Fwd,~,~,29,~,~,~,~,~,~,,,,-,~,~,~
+Spark Show,VTrigger 1,1,~,4(9),~,~,~,~,~,~,,,,-,~,~,~
+Shock Stance,VTrigger 2,1,~,5(9),~,~,~,~,~,~,,,,-,~,~,~
+double slap,VReversal,17,2,24,KD,-2,~,~,~,~,60,0,H,-,75,16,21
+bolt charge LP,LP Elbow,13,3,18,2,-2,~,~,~,~,60,100,H,-,~,~,~
+bolt charge MP,MP Elbow,15,3,20,2,-7,~,~,~,~,60,50,H,-,~,~,~
+bolt charge HP,HP Elbow,7,8,17+13,KD,~,~,~,~,~,60*90 (150),50*150 (200),H,-,66,17,17
+bolt charge EX,EX Elbow,14,3,22,0,-17,~,~,~,~,80,50,H,-,~,~,~
+split river,Dash Punch > P,~,~,~,KD,~,~,~,~,~,63,135,H,-,67,18,18
+rodeo break,Dash Punch > K,~,~,~,KD,~,~,~,~,~,63,135,H,-,67,18,18
+Thunder Clap Lvl 1,Fireball Lvl1,19,40,28,0,-5,17,12,4,-1,60,60,H,su,~,~,~
+Thunder Clap Lvl 2,Fireball Lvl2,41,80,27,9,0,25,16,12(4),3,60*30 (90),60*30 (90),H,su,~,~,~
+Thunder Clap Lvl 3,Fireball Lvl3,70,100,13,31,18,33,20,20(4),7(3),60*30*30 (120),60*30*30 (120),H,su,~,~,~
+Thunder Clap EX,EX Fireball,17,170,24,KD,3,KD(+118/59/64),16,8 * KD(+115/56/61),9(1),60*30 (90),60*30 (90),H,-,105,46,51
+sunset wheel LK,LK Command Grab,5,2,60,KD,KD,~,~,~,~,70*90 (160),100*100 (200),T,-,62,13,13
+sunset wheel MK,MK Command Grab,5,2,60,KD,KD,~,~,~,~,70*110 (180),100*100 (200),T,-,62,13,13
+sunset wheel HK,HK Command Grab,5,2,60,KD,KD,~,~,~,~,70*120 (190),100*100 (200),T,-,62,13,13
+sunset wheel EX,EX Command Grab,20,2,60,KD,KD,~,~,~,~,80*100 (180),100*150 (250),T,-,64,15,15
+inazuma spin hold,Super,4,2,52,KD,KD,~,~,~,~,350,0,T,-,50,1,1
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,xx VSkill oH,xx VSkill oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

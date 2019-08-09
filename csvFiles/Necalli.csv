@@ -1,0 +1,47 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,3,2,9,3,1,5,3,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,6,2,14,5,0,12,7,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,9,4,19,1,-2,11,8,80,150,H,sp/su/vt1/vt2,94,35,40
+stand LK,stand LK,4,4,8,4,2,5,3,40,70,H,vt1/vt2,~,~,~
+stand MK,stand MK,5,3,13,6,2,9,5,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HK,stand HK,12,4,21,3,-4,15,8,90,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,3,3,7,3,1,4,2,20,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,5,2,13,4,2,10,8,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,9,3,21,1,-4,13,8,80,150,H,sp/su/vt1/vt2,98,37,42
+crouch LK,crouch LK,4,2,9,3,1,4,2,20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,8,3,15,0,-4,9,5,50,100,L,sp/su/vt1/vt2,~,~,~
+crouch HK,crouch HK,7,4,21,KD,-10,KD (+87/38/43),5,90,150,L,vt1/vt2,72,23,28
+jump LP,jump LP,3,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,4,~,~,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,9,5,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,5,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,7,6,~,~,~,~,~,90,150,M,-,~,~,~
+Opening Dagger,df+HP,23,3,24,1,-6,~,~,80,100,M,-,~,~,~
+road of the sun (air),Divekick,14,12,11,3(9),-2(4),~,~,80,100,H,-,~,~,~
+sacrificial altar,MK > HK,5+11,4,21,KD,-8,~,~,60*54 (114),100*90 (190),H,vs,~,~,~
+sacrificial altar follow-up,MK > HK > MP+MK,5+11+20,4,33,KD,-9,KD (+114/55/60),11,60*54*32 (146),100*90*40 (230),H,su/vt1/vt2,94,35,40
+soul sealer,Throw,5,3,17,KD,KD,~,~,120,120,T,-,62,13,13
+soul discriminator,Back Throw,5,3,17,KD,KD,~,~,110,120,T,-,81,32,32
+culminated power,VSkill (Pound),25,3,29,KD,-1,KD (+95/46/51),16,50,100,H,vt1/vt2,78,29,34
+Torrent of Power,VTrigger 1,1,~,5,~,~,~,~,,,,-,~,~,~
+Eruption of Power,VTrigger 2,1,~,5,~,~,~,~,,,,-,~,~,~
+the calling,VReversal,17,2,24,KD,-2,~,~,60,0,H,-,77,18,23
+The Disc's Guidance LP,LP Lunge Punch,18,3,11+14,KD,-6,~,~,80,150,H,-,88,29,34
+The Disc's Guidance MP,MP Lunge Punch,21,3,13+13,KD,-6,~,~,100,150,H,-,87,28,33
+The Disc's Guidance HP,HP Lunge Punch,24,3,12+14,KD,-6,~,~,120,150,H,-,87,28,33
+The Disc's Guidance EX,EX Lunge Punch,17,2(12)2(12)3,11+20,KD,-13,14,9,40*40*70 (150),50*50*100 (200),H,-,82,23,28
+Raging Light LP,LP DP,3,2(3)2,19+16,KD,-24,~,~,100,150,H,-,82,23,28
+Raging Light MP,MP DP,5,3(3)3,21+16,KD,-28,~,~,110,30*120 (150),H,-,87,28,33
+Raging Light HP,HP DP,7,2*2(2)3,26+19,KD,-33,~,~,30*30*60 (120),30*30*90 (150),H,-,77,18,23
+Raging Light EX,EX DP,3,2*3*3*2(1)3,23+19,KD,-36,~,~,20x4*70 (150),20x4*120 (200),H,-,83,24,29
+Mask of Tlalli LK,LK Command Grab,8,2,60,KD,~,~,~,140,200,T,-,50,1,1
+Mask of Tlalli MK,MK Command Grab,8,2,60,KD,~,~,~,150,200,T,-,52,3,3
+Mask of Tlalli HK,HK Command Grab,8,2,60,KD,~,~,~,160,200,T,-,57,8,8
+Mask of Tlalli EX,EX Command Grab,8,2,60,KD,~,~,~,60,50,T,-,92,34,34
+Valiant Rebellion LK,LK Stomp,14,3,20,2,-4,~,~,50,100,H,su,~,~,~
+Valiant Rebellion MK,MK Stomp,19,3,20,5,-2,~,~,60,100,H,su,~,~,~
+Valiant Rebellion HK,HK Stomp,23,3,16,KD,0,~,~,80,150,H,-,95,46,51
+Valiant Rebellion EX,EX Stomp,10,2(24)2,24,2,-2,11,12,50*70,100*100,H,-,~,~,~
+Ceremony of Honor,Super (Normal),7,2,45,KD,-25,~,~,330,0,H,-,61,12,12
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

@@ -1,0 +1,58 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,xx VSkill oH,xx VSkill oB,xx VSkill > P oH Gap,xx VSkill > P oB Gap,xx Vskill > K oH Gap,xx Vskill > K oB Gap,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+Stand LP,Stand LP,4,2,7,5,3,4,2,4,2,-19,-21,-11,-13,-21,-23,30,70,H,sp/su/vt1/vt2,~,~,~
+Stand MP,Stand MP,5,4,13,2,0,11,9,11,9,-12,-14,-4,-6,-14,-16,70,100,H,sp/su/vt1/vt2,~,~,~
+Stand HP,Stand HP,12,2,19,0,-3,7,4,7,4,~,~,~,~,~,~,80,150,H,su/vt1/vt2,96,37,42
+Stand LK,Stand LK,3,2,8,2,1,4,2,4,2,~,~,~,~,~,~,30,70,H,vt1/vt2,~,~,~
+Stand MK,Stand MK,6,3,12,5,2,12,9,12,9,-11,-14,-3,-6,-13,-16,60,100,H,sp/su/vt1/vt2,~,~,~
+Stand HK,Stand HK,9,3,18(22),7,3,15,11,15,11,~,~,~,~,~,~,80,150,H,vt1/vt2,~,~,~
+Crouch LP,Crouch LP,4,3,7,4,3,5,4,5,4,-18,-19,-10,-11,-20,-21,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+Crouch MP,Crouch MP,6,3,12,4,2,11,9,11,9,-12,-14,-4,-6,-14,-16,60,100,H,sp/su/vt1/vt2,~,~,~
+Crouch HP,Crouch HP,8,5,22,-1,-5,11,7,11,7,-5,-9,N/A,-1,-7,-11,90,150,H,sp/su/vt1/vt2,117,58,63
+Crouch LK,Crouch LK,4,3,8,4,1,7,4,7,4,~,~,~,~,~,~,20,70,L,vt1/vt2,~,~,~
+Crouch MK,Crouch MK,7,2,17,2,-2,13,9,13,9,~,~,~,~,~,~,60,100,L,vt1/vt2,~,~,~
+Crouch HK,Crouch HK,8,2,26,KD,-14,KD (+91/42/47),6,KD (+91/42/47),6,~,~,~,~,~,~,100,150,L,vt1/vt2,71,22,27
+Jump LP,Jump LP,4,6,~,~,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+Jump MP,Jump MP,5,3,~,~,~,~,~,~,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+Jump HP,Jump HP,7,4,~,~,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Jump LK,Jump LK,3,8,~,~,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+Jump MK,Jump MK,6,5,~,~,~,~,~,~,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+Jump HK,Jump HK,9,4,~,~,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Hard Lead In,MK > MP,6+6,4,20,KD,-8,KD (+111/52/57),7,KD (+111/52/57),7,KD (+87/28/33),-17,N/A,-7,N/A,-12,96,172,H,vs/vt1/vt2,96,37,42
+Hard KKB,MK > MP > Vskill,~,~,31,KD,-17,~,~,~,~,~,~,~,~,~,~,96,172,H,-,87,28,33
+Hard Smasher,TC > VSkill > Straight,6+6+21,2,23,KD,-8,KD (+111/52/57),9,KD (+111/52/57),8,~,~,~,~,~,~,144,268,H,vt1/vt2,94,35,40
+Hard Pressure,TC > VSkill > Overhead,6+6+26,2,22,KD,-8,KD (+86/27/32),8,KD (+86/27/32),8,~,~,~,~,~,~,144,268,M,vt1/vt2,70,11,16
+Under Impact 1,LK > MK,3+6,3,16,1,-7,12,4,12,4,~,~,~,~,~,~,66,133,H,vt1/vt2,~,~,~
+Under Impact 2,LK > MK > HK,3+6+9,2,21,KD,-8,KD (+104/45/50),7,KD (+104/45/50),7,~,~,~,~,~,~,122,213,H,vt1/vt2,89,30,35
+Stomping Combo,cr.MK > cr.MK,7+10,3,20,2,-7,7,-2,7,-2,~,~,~,~,~,~,96,172,L*L,vt1/vt2,~,~,~
+Dirty Bomber,Throw,5,3,17,KD,~,~,~,~,~,~,~,~,~,~,~,140,150,-,-,65,16,16
+Dirty Shot,Back Throw,5,3,17,KD,~,~,~,~,~,~,~,~,~,~,~,130,200,-,-,61,12,12
+KKB,VSkill,~,~,29,~,~,~,~,~,~,~,~,~,~,~,~,,,H,sp,~,~,~
+KKB > Buffalo Swing,VSkill > P,11+7,2,21,2,-4,17,11,17,11,~,~,~,~,~,~,50,100,H,vt1/vt2,~,~,~
+KKB > Buffalo Pressure,VSkill > K,11+17,3,19,5,-6,19,8,19,8,~,~,~,~,~,~,50,100,M,vt1/vt2,~,~,~
+Crazy Rush,VTrigger 1,1,~,6,~,~,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+No Mercy,VTrigger 2,1,~,6,~,~,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Buffalo Headbutt,VReversal,17,3,23,KD,-2,~,~,~,~,~,~,~,~,~,~,60,0,H,-,75,16,21
+Dash Straight LP,LP Dash Punch,10(12),4,22,2,-4,5,-1,~,~,~,~,~,~,~,~,80,150,H,vs/vt1/su,~,~,~
+Dash Straight MP,MP Dash Punch,12(16),4,22,3,-6,6,-3,~,~,~,~,~,~,~,~,90,150,H,vs/vt1/su,~,~,~
+Dash Straight HP,HP Dash Punch,19(25),4,22,2,-7,6,-3,~,~,~,~,~,~,~,~,100,150,H,vs/vt1/su,~,~,~
+Dash Straight EX,EX Dash Punch,9(22),6,29,KD,1,9 * KD (+96/37/42),4,~,~,3,-2,N/A,N/A,-1,-6,80+70,50+150,H,vs/vt1,92,33,38
+Dash Grand Blow LK,LK Dash Low,17,2,26,KD,-7,KD (+79/30/35),3,~,~,~,~,~,~,~,~,70,150,L,vs/vt1,69,20,25
+Dash Grand Blow MK,MK Dash Low,18(22),2,26,KD,-7,KD (+79/30/35),3,~,~,~,~,~,~,~,~,80,150,L,vs/vt1,69,20,25
+Dash Grand Blow HK,HK Dash Low,19(25),2,26,KD,-7,KD (+79/30/35),3,~,~,~,~,~,~,~,~,90,150,L,vs/vt1,69,20,25
+Dash Grand Blow EX,EX Dash Low,11(19),2,23,KD,-2,KD (+78/29/34),5,~,~,~,~,~,~,~,~,140,200,L,vs/vt1,71,22,27
+Screw Smash LK,LK Smash,10,5,25,KD,-10,KD (+109/50/55),12,~,~,~,~,~,~,~,~,100,150,H,vt1/su,87,28,33
+Screw Smash MK,MK Smash,13,5,26,KD,-10,KD (+112/53/58),13,~,~,~,~,~,~,~,~,100,150,H,vt1/su,89,30,35
+Screw Smash HK,HK Smash,23,5,25,KD,-10,KD (+117/58/63),10,~,~,~,~,~,~,~,~,100,150,H,vt1/su,97,38,43
+Screw Smash EX,EX Smash,12,5,29,KD,-17,KD (+97/38/43),-7,~,~,~,~,~,~,~,~,160,200,H,vt1,90,31,36
+TAP lvl 1,TAP 1,26(30),2,22,2,-2,15,12,~,~,~,~,~,~,~,~,80,150,H,vs/vt1/su,~,~,~
+TAP lvl 2,TAP 2,26(30),2,22,2,-2,16,13,~,~,~,~,~,~,~,~,100,150,H,vs/vt1/su,~,~,~
+TAP lvl 3,TAP 3,26(30),2,22,3,-2,17,14,~,~,~,~,~,~,~,~,120,150,H,vs/vt1/su,~,~,~
+TAP lvl 4,TAP 4,26(30),2,22,KD,-2,KD (+104/45/50),15,~,~,~,~,~,~,~,~,140,200,H,vs/vt1/su,90,31,36
+TAP lvl 5,TAP 5,26(30),2,22,KD,-2,KD (+104/45/50),16,~,~,~,~,~,~,~,~,160,200,H,vs/vt1/su,90,31,36
+TAP lvl 6,TAP 6,26(30),2,22,KD,-2,KD (+104/45/50),17,~,~,~,~,~,~,~,~,180,200,H,vs/vt1/su,90,31,36
+TAP lvl 7,TAP 7,26(30),2,22,KD,-2,KD (+108/49/54),18,~,~,~,~,~,~,~,~,210,300,H,vs/vt1/su,94,35,40
+TAP lvl 8,TAP 8,26(30),2,22,KD,-2,KD (+108/49/54),19,~,~,~,~,~,~,~,~,240,300,H,vs/vt1/su,94,35,40
+TAP lvl 9,TAP 9,26(30),2,22,KD,-2,KD (+108/49/54),20,~,~,~,~,~,~,~,~,270,300,H,vs/vt1/su,94,35,40
+TAP lvl 10,TAP Max,26(30),2,22,KD,7,KD (+122/63/63),21,~,~,~,~,~,~,~,~,350,400,H,vs/vt1/su,98,39,39
+Gigaton Blow,Super (Bionic Arm),8,10,60,KD,-45,~,~,~,~,~,~,~,~,~,~,330,,H,-,72,13,18
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,xx VSkill oH,xx VSkill oB,xx VSkill > P oH Gap,xx VSkill > P oB Gap,xx Vskill > K oH Gap,xx Vskill > K oB Gap,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

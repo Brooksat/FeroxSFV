@@ -1,0 +1,75 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 2 oH,xx VTrigger 2 oB,xx Claw Switch oH,xx Claw Switch oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP (no claw),stand LP (no claw),3,2,6,6,3,1,-2,-7,-10,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+stand MP (no claw),stand MP (no claw),7,3,15,4,1,9,6,1,-2,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP (no claw),stand HP (no claw),9,2,21,4,-1,14,9,6,1,90,150,H,sp/su/vt1/vt2,~,~,~
+stand LP (claw),stand LP (claw),5,2,9,5,1,3,-1,-7,-11,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MP (claw),stand MP (claw),8,2,14,6,2,9,5,-1,-5,70,100,H,vt1/vt2,~,~,~
+stand HP (claw),stand HP (claw),8,2,21,7,-2,16,8,7,-2,80,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,3,2,9,4,2,2,0,~,~,30,70,H,vt1/vt2,~,~,~
+stand MK,stand MK,7,3,12,4,2,6,4,~,~,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,11,3,16,4,-1,10,5,~,~,80,150,H,vt1/vt2,~,~,~
+crouch LP (no claw),crouch LP (no claw),4,3,6,4,2,0,-2,-8,-10,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP (no claw),crouch MP (no claw),6,3,14,4,2,8,6,-2,-4,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP (no claw),crouch HP (no claw),9,4,15,5,3,11,9,3,1,80,150,H,sp/su/vt1/vt2,~,~,~
+crouch LP (claw),crouch LP (claw),4,3,6,5,2,1,-2,-9,-12,30,70,H,sp/su/vt1/vt2,~,~,~
+crouch MP (claw),crouch MP (claw),6,2,15,3,1,7,5,-3,-5,60,100,H,vt1/vt2,~,~,~
+crouch HP (claw),crouch HP (claw),9,3,19,5,3,13,11,3,1,80,150,H,vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,9,4,0,2,-2,~,~,20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,8,2,16,7,2,12,7,~,~,50,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,9,9,18,KD,-13,KD (+82/33/38),1,~,~,90,150,L,vt1/vt2,68,19,24
+jump LP (no claw),jump LP (no claw),3,5,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP (no claw),jump MP (no claw),4,5,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP (no claw),jump HP (no claw),7,4,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LP (claw),jump LP (claw),4,5,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP (claw),jump MP (claw),5,5,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP (claw),jump HP (claw),7,4,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,7,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HK,jump HK,9,5,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Mercury Shard,Mercury Shard,22,3,15,0,-6,~,~,~,~,60,100,M,-,~,~,~
+Buster Claw (claw),f+HP (claw),13,2,24,-3,-14,6,-5,~,~,80,150,H,vt1/vt2,104,45,50
+Reverse Claw (claw),HP > HP (claw),8+10,3,22,KD,-10,KD (+101/42/47),2,~,~,80*54,150*72,H*H,sp/su/vs/vt1/vt2,89,30,35
+Matador Flash (claw),HP > HP > MP+MK (claw),8+10+22,2,~,KD,-10,KD (+97/38/43),~,~,~,80*54*48 (182),150*72*64 (284),H*H*H,su/vt1/vt2,77(78),18(19),23(24)
+Matador Blitz (no claw),MP > HK (no claw),7+9,3,18,KD,-3,KD (+107/48/53),~,~,~,60*54,100*72,H*H,sp/su/vs/vt1/vt2,93,34,39
+Matador Blitz 2nd (no claw),MP > HK > MP+MK (no claw),7+9+22,3,~,KD,-13(-16),KD (+98/39/44),~,~,~,60*72,100*72,H*H*H,su/vt1/vt2,78,19,24
+wall jump,Wall Jump,9,~,~,~,~,~,~,~,~,,,,-,~,~,~
+rainbow suplex,Throw,5,3,17,KD,~,~,~,~,~,140,170,T,-,59,10,10
+crescent line,Back Throw,5,3,17,KD,~,~,~,~,~,150,200,T,-,57,8,8
+stardust shot,Air Throw,5,2,~,KD,~,~,~,~,~,140,200,T,-,~,~,~
+bloody kiss torero,VTrigger 1 (forward),10,~,~,KD,-2,~,~,~,~,30*50*60 (140),150,H,-,116,57,62
+bloody kiss rojo,VTrigger 1(anti-air),10,~,~,KD,-22,~,~,~,~,30*70*80 (180),200,H,-,81,23,28
+bloody kiss azul,VTrigger 1 (air),10,~,~,KD,-2,~,~,~,~,30*50*60 (140),150,H,-,116,49,54
+alegrias,VTrigger 2,1,~,5,~,~,~,~,~,~,,,,-,~,~,~
+flash arch - rossa (stance),VTrigger 2 Parry,3,13,36,KD,~,~,~,~,~,,,,-,~,~,~
+flash arch - rossa (attack),VTrigger 2 Counter Attack,1,2(21)2,26,KD,~,~,~,~,~,50*100,200,H,-,114,55,60
+flash arch - granate,VTrigger 2 Launch,18,4,26,KD,-11,~,~,~,~,60*60,150,H,-,111,52,57
+matador turn (attack),VSkill (hold),22,2,31,KD,-13,KD (+97/38/43),7,~,~,90,100,H,su/vt1/vt2,77,18,23
+matador turn,VSkill (dodge),6,27,4,~,~,~,~,~,~,,,H,-,~,~,~
+backslash,3P VReversal,1,~,40,~,~,~,~,~,~,,,,-,~,~,~
+short backslash,3K VReversal,1,~,30,~,~,~,~,~,~,,,,-,~,~,~
+bloody garden,Wall Climb,9,~,~,~,~,~,~,~,~,,,,,~,~,~
+flying barcelona movement LK,LK Flying Barcelona Movement,~,~,31,~,~,~,~,~,~,,,,-,~,~,~
+flying barcelona movement MK,MK Flying Barcelona Movement,~,~,31,~,~,~,~,~,~,,,,-,~,~,~
+flying barcelona movement HK,HP Flying Barcelona Movement,~,~,31,~,~,~,~,~,~,,,,-,~,~,~
+flying barcelona movement EX,EX Flying Barcelona Movement,9,~,31,~,~,~,~,~,~,40,0,H,-,~,~,~
+flying barcelona attack (no claw),Flying Barcelona > P (no claw),3,6,31(9),7(9),1(3),~,~,~,~,80,100,M,-,~,~,~
+flying barcelona attack (claw),Flying Barcelona > P (claw),3,6,31(9),KD,3(6),~,~,~,~,120,150,M,-,~,~,~
+flying barcelona attack EX (no claw),EX Flying Barcelona > P (no claw),9,5,31(9),10(15),1(6),~,~,~,~,30*30*60 (120),50*50*100 (200),M,-,~,~,~
+flying barcelona attack EX (claw),EX Flying Barcelona > P (claw),9,5,31(9),KD,1(6),~,~,~,~,30*30*60 (120),50*50*100 (200),M,-,~,~,~
+izuna drop,Flying Barcelona > Throw,4,2,31,KD,KD,~,~,~,~,150,200,T,-,63,14,14
+izuna drop EX,EX Flying Barcelona > Throw,4,2,31,KD,KD,~,~,~,~,160,250,M,-,63,14,14
+grand izuna drop LP,LP Command Grab,6,2,60,KD,~,~,~,~,~,50*80,100*100,T,-,63,14,14
+grand izuna drop MP,MP Command Grab,6,2,60,KD,~,~,~,~,~,50*90,100*100,T,-,63,14,14
+grand izuna drop HP,HP Command Grab,6,2,60,KD,~,~,~,~,~,50*100,100*100,T,-,63,14,14
+grand izuna drop EX,EX Command Grab,6,2,60,KD,~,~,~,~,~,80*100,100*150,T,-,68,19,19
+crimson terror LK,LK Rolling Attack,8,2(17)5,12,2,-6,~,~,~,~,20*60,20*150,H*H,su,~,~,~
+crimson terror MK,MK Rolling Attack,17,2(10)2(20)5,14,2,-7,~,~,~,~,20*20*60 (100),20*20*110 (150),H*H*H,su,~,~,~
+crimson terror HK,HK Rolling Attack,19,4(12)3(10)3(22)5,16,KD,-8,~,~,~,~,20x3*60 (120),20x3*140 (200),H*H*H*H,su,89,30,35
+crimson terror EX,EX Rolling Attack,16,6(21)5,2+8,KD,-2,~,~,~,~,20x4 (120),20*0*0*100 (120),H,vt1,107,48,53
+aurora spin edge LP,LP Slash,12,6,20,KD,-7,~,~,~,~,100,200,L,su,90,31,36
+aurora spin edge MP,MP Slash,15,6,18,KD,-6,~,~,~,~,100,200,H,su,92,33,38
+aurora spin edge HP,HP Slash,12,6,18,KD,-4,~,~,~,~,100,200,H,su,101,42,47
+aurora spin edge EX,EX Slash,12,7(12)4,21,KD,-3,~,~,~,~,50*100,100*100,H*H,-,86,27,32
+switch claw,Switch Claw,~,~,23,~,~,~,~,~,~,,,,-,~,~,~
+bloody rain,Super,9,~,29,KD,-22,~,~,~,~,330,0,H,-,80,40,40
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 2 oH,xx VTrigger 2 oB,xx Claw Switch oH,xx Claw Switch oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

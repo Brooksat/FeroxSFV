@@ -5,7 +5,6 @@ $password = "";
 $db = "sfvchar";
 $KNOCK_DOWN = -100;
 
-// $currentCharacter = "Ken";
 
 //Create connection
 $conn = mysqli_connect($servername, $username, $password, $db);
@@ -16,9 +15,9 @@ if (!$conn) {
 
 
 
-$csvNamesFile = "names.csv";
+$csvNamesFile = "csvFiles\\names.csv";
 
-$csvOpen = fopen('names.csv', 'r');
+$csvOpen = fopen($csvNamesFile, 'r');
 
 while(($data = fgetcsv($csvOpen)) !== FALSE) {
     openCharFile($data[0]);
@@ -26,7 +25,7 @@ while(($data = fgetcsv($csvOpen)) !== FALSE) {
 
 
 function openCharFile($name){
-    $fileName = "C:\Users\adria\Documents\pythonstuff\\$name.csv";
+    $fileName = "csvFiles\\$name.csv";
     $file = fopen($fileName, 'r');
     
     while (($data = fgetcsv($file)) !== FALSE) {
@@ -68,7 +67,7 @@ function insertMoveEntry($row, $charName)
     if ($row[0] != "Move Name") {
         echo ("Attempting to add: " . $row[0] . "<br>");
         if (mysqli_query($conn, $sql)) {
-            echo "new record created<br>";
+            //echo "new record created<br>";
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn) . "<br><br>";
         }

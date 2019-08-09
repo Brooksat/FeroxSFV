@@ -1,0 +1,80 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx LK Cmd Dash oH,xx LK Cmd Dash oB,xx MK Cmd Dash oH,xx MK Cmd Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,3,2,8,2,1,3(-34),2(-35),-15,-16,-18,-19,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,5,3,10,4,2,8(-26),6(-28),-7,-9,-10,-12,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,12,2,19,0,-5,9(-25),5(-30),-3,-8,-6,-11,80,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,4,3,9,0,-2,3(-33),1(-35),-14,-16,-17,-19,30,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,6,2,14,5,2,11(-23),8(-26),~,~,~,~,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,10,3,16(19),3,-2,13(-21),8(-26),~,~,~,~,90,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,3,8,3,2,3(-31),2(-32),-12,-13,-15,-16,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,16,3,-1,13(-21),9(-25),-6,-10,-9,-13,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,9,4,16,2,-3,13(-21),8(-26),-2,-7,-5,-10,90,150,H,sp/su/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,8,3,1,4(-30),2(-32),~,~,~,~,20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,6,3,16,3,-2,9(-25),4(-30),~,~,~,~,60,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,8,2,24,KD,-12,KD (+84/35/40)*(50/1/6),5(-29),~,~,~,~,100,150,L,vt1/vt2,67,18,23
+jump LP,jump LP,3,5,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,5,6,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,9,5,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,3,6,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,6,6,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,8,4,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Tobikura,j+LP > j+MK (air),4+4,6,~,~,~,~,~,~,~,~,~,40*63,70*45,M,-,~,~,~
+Aoji,j+HP> j+HK (air),9+5,4,~,~,~,~,~,~,~,~,~,90*45,150*72,M,-,~,~,~
+Kobekudaki,Overhead,28,2,16,3,-2,~,~,~,~,~,~,70,100,M,-,~,~,~
+Bonshogeri,f+HK,14,4,16(19),2,-3,~,~,~,~,~,~,90,150,H,-,103,42,47
+Sazan,df+MK,7,11,14,-6,-10,~,~,~,~,~,~,50,100,L,-,~,~,~
+Agemen,b+MP,7,2*1,11,4*4,-1*0,9(-25)*7(-27),4(-30)*3(-31),-6,-11,-9,-14,40,70,H,sp/su/vt1/vt2,~,~,~
+Shinten 1,LP > MP,3+5,3,15,-5,-8,4(-30),1(-33),~,~,~,~,30*36 (66),70*45 (115),H*H,vt1/vt2,~,~,~
+Shinten 2,LP > MP > HP,3+5+6,3,16,0,-5,10(-24),5(-29),-5,~,-8,~,40*36*40 (106),70*45*56 (171),H*H*H,sp/su/vt1/vt2,~,~,~
+Yagurakuzushi,LP > MP > LK,3+5+4,2,15,1,-2,9(-25),6(-28),~,~,~,~,30*36*24 (90),70*45*40 (155),H*H*H,vt1/vt2,~,~,~
+Gogasha 1,MK > cr.HK,6+7,2,23,KD,-12,KD (+80/31/36) / (46/-3/2),0(-34),~,~,~,~,60*54 (114),100*54 (154),H*L,vt1/vt2,68,19,24
+Gogasha 2,MK > cr.HK > HK,6+7+7,2,17,~,~,24(-10),~,9,~,6,~,60*54*32 (146),100*54*48 (202),H*L*H,sp/su/vt1/vt2,17,17,17
+Shakunage,cr.MP > f+HK,6+14,3,23,2,-5,~,~,~,~,~,~,60*63 (123),100*90 (190),H*H,-,~,~,~
+Sasanaki,MP > f+MK,5+27,2,13,6,-2,~,~,~,~,~,~,70,100,H*M,-,~,~,~
+Nobusuma,Float,~,~,9,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Yamikazura,Throw,5,3,17,KD,KD,~,~,~,~,~,~,130,120,T,-,64,5,5
+Kubiori,Back Throw,5,3,17,KD,KD,~,~,~,~,~,~,150,200,T,-,78,19,19
+Tobizaru,Air Throw,5,2,6,KD,~,~,~,~,~,~,~,140,200,T,-,~,~,~
+Tenrai,VSkill,15,5,20,KD,-7,KD (+101/42/47) / (67/8/13),11(-23),~,~,~,~,60,100,H,-,85,26,31
+Tenrai Full,VSkill hold,25,7,18,KD,-2,KD (+103/44/49) / (69/10/15),14(-20),~,~,~,~,80,150,H,-,87,28,33
+Rokushaku Horokudama,VTrigger 1 (1st Bomb),1,~,5,~,~,~,~,~,~,~,~,120(160),80,H,-,215,154,159
+Rokushaku Horokudama 2nd,VTrigger 1 (2nd Bomb),25,~,22,~,~,~,~,~,~,~,~,120(160),80,H,-,215,154,159
+Fuma Shuriken (Haku),VTrigger 2,7,~,36,8,-2,~,~,~,~,~,~,20*20(80),40*40(160),H,-,~,~,~
+Fuma Shuriken (Kokufu),VTrigger 2 air,7,~,44,0,-6,~,~,~,~,~,~,25*25(100),40*40(160),H,-,~,~,~
+Hanagasumi,VReversal,17,4,32,KD,-2,~,~,~,~,~,~,60,,H,-,75(78),16(19),21(24)
+Kasumigake LK,LK Dash,~,~,23,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kasumigake MK,MK Dash,~,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kasumigake HK,HK Dash,~,~,53+4,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kazekiri LK,LK DP,3,13,20+14,KD,-27,~,~,~,~,~,~,50*40*30 (120),50*50*50 (150),H,su,81,22,27
+Kazekiri MK,MK DP,4,13,19+15,KD,-27,~,~,~,~,~,~,50*40*30 (120),50*50*50 (150),H,su,81,22,27
+Kazekiri HK,HK DP,5,13,19+15,KD,-27,~,~,~,~,~,~,50*40*30 (120),50*50*50 (150),H,su,81,22,27
+Kazekiri EX,EX DP,4,13,17+20,KD,-31,~,~,~,~,~,~,50*30x3 (140),50x4 (200),H,-,85,26,31
+Raida LP,LP Hit Grab,7,2,30,KD,-12,~,~,~,~,~,~,100,200,H,-,79,20,20
+Raida MP,MP Hit Grab,7,2,30,KD,-12,~,~,~,~,~,~,110,200,H,-,77,18,18
+Raida HP,HP Hit Grab,7,2,30,KD,-12,~,~,~,~,~,~,120,200,H,-,79,20,20
+Raida EX,EX Hit Grab,7,3,27,KD,-11,~,~,~,~,~,~,20*130 (150),200,H,-,79,20,20
+Kunai LP,LP Kunai,10,~,23,2,-2,17(-17),13(-21),~,~,~,~,40,50,H,su,~,~,~
+Kunai MP,MP Kunai,10,~,23,2,-2,17(-17),13(-21),~,~,~,~,40,50,H,su,~,~,~
+Kunai HP,HP Kunai,10,~,23,2,-2,17(-17),13(-21),~,~,~,~,40,50,H,su,~,~,~
+Kunai EX,EX Kunai,10,~,34,KD,18,24(-10),24(-10),~,~,~,~,20*40,50*50,H,-,~,~,~
+Airborne Kunai LP,LP Air Kunai,7,~,13,-5(8),-8(5),~,~,~,~,~,~,40,50,H,-,~,~,~
+Airborne Kunai MP,MP Air Kunai,7,~,13,-5(10),-8(7),~,~,~,~,~,~,40,50,H,-,~,~,~
+Airborne Kunai HP,HP Air Kunai,7,~,13,-4(14),-7(11),~,~,~,~,~,~,40,50,H,-,~,~,~
+Airborne Kunai EX,EX Air Kunai,5,~,13,KD,~,~,~,~,~,~,~,20*50,50*50,H,-,133,74,79
+Kunai Ikkinage LP,LP Charge Ground Kunai,11,~,26,KD,-1(9),KD (~/~/~),17(-17),KD (~/~/~),-10(0),KD (~/~/~),-13(-3),20 per dagger,20 per dagger,H,sp/su/vt1/vt2,110,51,56
+Kunai Ikkinage MP,MP Charge Ground Kunai,11,~,26,KD,-1(9),KD (~/~/~),17(-17),KD (~/~/~),-10(0),KD (~/~/~),-13(-3),20 per dagger,20 per dagger,H,sp/su/vt1/vt2,110,51,56
+Kunai Ikkinage HP,HP Charge Ground Kunai,11,~,26,KD,-1(9),KD (~/~/~),17(-17),KD (~/~/~),-10(0),KD (~/~/~),-13(-3),20 per dagger,20 per dagger,H,sp/su/vt1/vt2,110,51,56
+Airborne Kunai Ikkinage  LP,LK Charge Air Kunai,16,~,13,KD,~,~,~,~,~,~,~,20 per dagger,20 per dagger,H,-,110,51,56
+Airborne Kunai Ikkinage MP,MK Charge Air Kunai,16,~,13,KD,~,~,~,~,~,~,~,20 per dagger,20 per dagger,H,-,110,51,56
+Airborne Kunai Ikkinage HP,HK Charge Air Kunai,16,~,13,KD,~,~,~,~,~,~,~,20 per dagger,20 per dagger,H,-,110,51,56
+Kunai Hoju Lvl 1,Kunai Refill lvl 1,25,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kunai Hoju Lvl 2,Kunai Refill lvl 2,38,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kunai Hoju Lvl 3,Kunai Refill lvl 3,50,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kunai Hoju Lvl 4,Kunai Refill lvl 4,62,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kunai Hoju Lvl 5,Kunai Refill lvl 5,74,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kunai Hoju Lvl 6,Kunai Refill lvl 6,83,~,26,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Kunai Hoju EX Lvl 1,EX Kunai Refill lvl 1,25,~,26,~,~,~,~,~,~,~,~,,,,,~,~,~
+Kunai Hoju EX Lvl 2,EX Kunai Refill lvl 2,38,~,26,~,~,~,~,~,~,~,~,,,,,~,~,~
+Kunai Hoju EX Lvl 3,EX Kunai Refill lvl 3,50,~,26,~,~,~,~,~,~,~,~,,,,,~,~,~
+Kunai Hoju EX Lvl 4,EX Kunai Refill lvl 4,61,~,26,~,~,~,~,~,~,~,~,,,,,~,~,~
+Kachofugetsu,Super,5,17,17,KD,-20,~,~,~,~,~,~,340,356,H,-,9,9,9
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx LK Cmd Dash oH,xx LK Cmd Dash oB,xx MK Cmd Dash oH,xx MK Cmd Dash oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

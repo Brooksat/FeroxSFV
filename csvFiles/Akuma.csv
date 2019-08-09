@@ -1,0 +1,82 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,3,2,7,4,2,6,4,30,70,H,ch/sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,7,3,14,3,1,10,8,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HP,stand HP,8,3,19,2,-5,17,15,80,150,H,su/vt1/vt2,106,42,47
+stand LK,stand LK,4,3,10,2,1,8,7,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,5,2,18,4,-4,10,2,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HK,stand HK,11,2,22,3,-2,12,7,80,120,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,2,6,4,2,5,3,30,70,H,ch/sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,12,5,3,7,5,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,10,4,16(20),8,3,18,13,80,150,H,vt1/vt2,92,60,60
+crouch LK,crouch LK,4,2,7,2,1,4,3,20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,6,2,14,3,-1,9,5,50,100,L,sp/su/vs/vt1/vt2,~,~,~
+crouch HK,crouch HK,7,2,24(27),KD,-15,KD (+86/37/42),14,90,150,L,vt1/vt2,67,18,23
+jump LP,jump LP,3,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,5,~,~,~,~,~,50,100,M,sp,~,~,~
+jump HP,jump HP,8,5,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,6,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,4,~,~,~,~,.,60,100,M,-,~,~,~
+jump HK,jump HK,8,4,~,~,~,~,~,90,150,M,-,~,~,~
+Tenmakujinkyaku,Divekick,16,~,6,2(12),-2(6),~,~,60,100,H,-,~,~,~
+Zugaihasatsu,Overhead,23,1*2,21,0,-6,~,~,20*50,60*40,M*M,-,~,~,~
+Sekiseiken,f+HP,32,7,16,5,-2,~,~,60,100,H,vt1/vt2,~,~,~
+Tenha,b+HP,6,7,21,KD,-10,21*KD (+121/62/67),15*10,90,200,H,sp/su/vs/vt1/vt2,~,~,~
+Kikokurenzan,HK > HK,12+15,2,18,7,0,14,7,80*45,120*63,H,vt1/vt2,~,~,~
+Kongoken,HP > HP,8+18,8,30,KD,-12,KD (+115/56/61),11,80*54,150*72,H,vt1/vt2,92,33,38
+Goshoha,Throw,5,3,17,KD,KD,~,~,130,170,T,-,74,15,15
+Shuretsuzan,Back Throw,5,3,17,KD,KD,~,~,120,170,T,-,77,18,18
+Rakan,VSkill,3,12,29(10),~,~,~,~,,,-,-,~,~,~
+Dohatsu Shoten,VTrigger 1,1,~,5,~,~,~,~,,,-,-,~,~,~
+Shiretsu Hasshi,VTrigger 2,1,~,5,~,~,~,~,,,-,-,~,~,~
+Rakan Gosho,VSkill > P,10+5,4,26,KD,-10,KD (+107/48/53),12,70,100,H,vt1/vt2,84,25,30
+Rakan Gokyaku,VSkill > K,10+11,4,26,KD,-13,KD (+127/68/73),9,60,100,H,sp/su/vs/vt1/vt2,109,50,55
+Gosenkyaku,VReversal,17,2,24,KD,-2,~,~,60,0,H,-,85(88),26(29),31(34)
+Taunt Stomp,Taunt attack,1*66,1,~,KD,22,KD (+116/57/62),12,70,100,H,sp/su/vs/vt1/vt2,122,53,58
+Neutral Stomp,Neutral attack,402,2,~,23,?,~,~,90,150,H,-,~,~,~
+Gohadoken LP,LP Fireball,14,45(8),34,KD(-2),-6,KD (+111/52/57),17,60,120(100),H,su/vt1/vt2,88,29,34
+Gohadoken MP,MP Fireball,14,35(8),34,KD(-2),-6,KD (+111/52/57),17,60,120(100),H,su/vt1/vt2,88,29,34
+Gohadoken HP,HP Fireball,14,23(8),34,KD(-2),-6,KD (+111/52/57),17,60,120(100),H,su/vt1/vt2,88,29,34
+Gohadoken EX,EX Fireball,11,~,35,KD(3),1,KD (+123/64/69),29,50*50,170(150),H,vt1/vt2,94,36,41
+Zanku Hadoken LP,LP Air Fireball,11,~,9,~,~,~,~,50,40,H,-,~,~,~
+Zanku Hadoken MP,MP Air Fireball,11,~,9,~,~,~,~,50,40,H,-,~,~,~
+Zanku Hadoken HP,HP Air Fireball,11,~,9,~,~,~,~,50,40,H,-,~,~,~
+Zanku Hadoken EX,EX Air Fireball,5*38,~,4,~,~,~,~,20x4*70 (150),25x4*50 (150),H,-,~,~,~
+Zanku Hadoken EX Initial Hit,EX Air Fireball Initial Hit,5,30,4,~,~,~,~,20*30*20*50 (120),25*50*25*50 (150),H,-,~,~,~
+Sekia Goshoha LP,LP Red Fireball,18,~,37,KD,-6,KD (+124/65/70),21,70,120,H,su/vt1/vt2,97,38,43
+Sekia Goshoha MP,MP Red Fireball,23,~,38,KD,-4,KD (+124/65/70),27,40x2,60x2,H,su/vt1/vt2,93,34,39
+Sekia Goshoha HP,HP Red Fireball,25,~,42,KD,-4,KD (+130/71/76),31,30*30*40 (100),50x3 (150),H,su/vt1/vt2,95,36,41
+Sekia Goshoha EX,EX Red Fireball,21,~,48,KD,8,KD (+151/92/97),49,4x25 (100),40*40*40*30 (150),H,vt1/vt2,110,51,56
+Goshoryuken LP,LP DP,3,12,19+15,KD,-28,KD (+108/49/54),-5,100,150,H,su/vt1/vt2,85,26,31
+Goshoryuken MP,MP DP,4,4*7,26+15,KD,-30,KD (+108/49/54),-5,70*50,100*50,H,su/vt1/vt2,86,27,31
+Goshoryuken HP,HP DP,4,1*3*7,29+15,KD,-33,KD (+110/51/56),-5,60*30x2 (120),10*30*20 (150),H,su/vt1/vt2,83,24,29
+Goshoryuken EX,EX DP,3,12(26)20,32+15,KD,-44,KD (+81/81/81),-6,30*20x2*30x3 (160),200,H,vt1/vt2,52,12,17
+Tatsumaki Zankukyaku LK,LK Tatsu,11,2,14+10,KD,-11,~,~,50,80,H,-,101,42,47
+Tatsumaki Zankukyaku MK,MK Tatsu,4,2(3)2(12)2,11+12,KD,-8,KD (+108/49/54),13,30*20x2 (70),70*30*20 (120),H,su/vt1/vt2,98,39,44
+Tatsumaki Zankukyaku HK,HK Tatsu,4,2(3)2(12)2(10)3,20+10,KD,-39,KD (+107/48/53),13,30*15x2*40 (100),50x4 (200),H,su/vt1/vt2,79,20,25
+Tatsumaki Zankukyaku EX,EX Tatsu,10,2(4)2(5)2(3)3(3)2,11+15,KD,-19,~,~,20x4*40 (120),30x5 (150),H,-,91,32,37
+Air Tatsumaki Zankukyaku LK,LK Air Tatsu,7,2(5)2(4)2,15,KD,-4(1),~,~,70,100,H,-,~,~,~
+Air Tatsumaki Zankukyaku MK,MK Air Tatsu,7,2(5)2(4)2,15,KD,-4(1),~,~,70,100,H,-,~,~,~
+Air Tatsumaki Zankukyaku HK,HK Air Tatsu,7,2(5)2(4)2,15,KD,-4(1),~,~,70,100,H,-,~,~,~
+Air Tatsumaki Zankukyaku EX,EX Air Tatsu,8,2(4)2(2)2(3)2(2)2,9,KD,~,~,~,30x4*40 (160),40x4*90 (250),H,-,~,~,~
+Hyakki Gozan LK,LK Demon Flip > Slide,47,8,14,KD,-2,~,~,100,150,H,-,71,22,27
+Hyakki Gozan MK,MK Demon Flip > Slide,48,8,14,KD,-2,~,~,100,150,H,-,71,22,27
+Hyakki Gozan HK,HK Demon Flip > Slide,49,8,14,KD,-2,~,~,100,150,H,-,71,22,27
+Hyakki Gozan EX,EX Demon Flip > Slide,6*44,10(28)8,12,KD,-2,~,~,120,150,H,-,73,24,29
+Hyakkishu LK > Hyakki Gosho,LK Demon Flip > Palm,22+8,4,10+6,KD,1(8),~,~,100,150,M,-,83,24,29
+Hyakkishu MK > Hyakki Gosho,MK Demon Flip > Palm,22+8,4,11+6,KD,1(8),~,~,100,150,M,-,83,24,29
+Hyakkishu HK > Hyakki Gosho,HK Demon Flip > Palm,22+8,4,13+6,KD,1(8),~,~,100,150,M,-,83,24,29
+Hyakkishu EX > Hyakki Gosho,EX Demon Flip > Palm,6*27,10(12)8,7+6,KD,3(9),~,~,120,200,M,-,82,23,28
+Hyakkishu LK > Hyakki Gojin,LK Demon Flip > Divekick,22+22,8,10,4(12),-2(5),~,~,60,100,H,-,~,~,~
+Hyakkishu MK > Hyakki Gojin,MK Demon Flip > Divekick,22+22,8,10,4(12),-2(5),~,~,60,100,H,-,~,~,~
+Hyakkishu HK > Hyakki Gojin,HK Demon Flip > Divekick,22+22,10,10,4(12),-4(5),~,~,60,100,H,-,~,~,~
+Hyakkishu EX > Hyakki Gojin,EX Demon Flip > Divekick,6*38,10(23)8,10,6(13),-2(9),~,~,70,100,H,-,112,53,58
+Hyakkishu LK > Hyakki Gosai,LK Demon Flip > Throw,22+7,5,10+26,KD,KD,~,~,150,200,H,-,70,11,11
+Hyakkishu MK > Hyakki Gosai,MK Demon Flip > Throw,22+7,5,11+26,KD,KD,~,~,150,200,H,-,70,11,11
+Hyakkishu HK > Hyakki Gosai,HK Demon Flip > Throw,22+7,5,13+26,KD,KD,~,~,150,200,H,-,70,11,11
+Hyakkishu EX > Hyakki Gosai,EX Demon Flip > Throw,6*26,10(11)3,13+26,KD,KD,~,~,180,250,H,-,70,11,11
+Hyakki Gozanku,EX  Demon Flip > Fireball,6*24,10(8)30(3)~,4,KD,~,~,~,150,150,H,-,~,~,~
+Hyakki Gorasen,EX  Demon Flip > Tatsu,6,10(13)2(4)2(2)2(3)2(2)2,9,KD,~,~,~,160,250,H,-,~,~,~
+Ashura Senku (fwd),Forward Teleport,1,50,11,~,~,~,~,,,-,-,~,~,~
+Ashura Senku (back),Backwards Teleport,1,50,11,~,~,~,~,,,-,-,~,~,~
+Sekia Kuretsuha,Super (Ground Pound),8,21,46,KD,-30,~,~,320,0,H,-,98,31,36
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1/2 oH,xx VTrigger 1/2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

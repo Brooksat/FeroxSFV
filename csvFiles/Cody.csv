@@ -1,0 +1,47 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,xx Knife Reload oH,xx Knife Reload oB,xx Bean Ball oH,xx Bean Ball oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,3,7,3,1,7,5,4,2,-17,-19,-37,-39,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,7,2,16,4,0,16,10,13,7,-8,-14,-28,-34,60,100,H,sp/su/vt1/vt2,~,~,~
+stand HP,stand HP,7,2*3,21,4*3(1),-9*-7,22*19,11*11,19*16,8*8,-2,-13,~,~,90*30,120*50,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,5,3,10,4,3,9,8,7,6,~,~,-33,-34,40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,8,3,12,7,3,16,12,13,9,~,~,-28,-32,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,15,3,21,2,-4,20,14,17,11,~,~,-24,-30,80,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,4,2,10,4,2,10,8,7,5,-14,-16,-34,-36,30,70,H,ch/sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,13(15),5,2,15,12,12,9,-9,-12,-29,-32,60,100,H,sp/su/vt1/vt2,~,~,~
+crouch HP,crouch HP,9,2,21,0,-4,16,12,13,9,-8,-12,~,~,90,150,H,sp/su/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,3,8,3,1,8,6,5,3,~,~,-36,-38,20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,7,3,15,3,1,11,9,11,9,~,~,-30,-34,60,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,9,4,25(27),KD,-14,KD(+88/39/44),11,KD(+85/36/41),8,~,~,KD(+44/-5/0),-33,90,150,L,vt1/vt2,69,20,25
+jump LP,jump LP,4,5,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,5,~,KD,~,~,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,9,5,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,5,5,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,5,~,~,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,10,5,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Air Raid Punch,Air Target Combo,7+9,5,~,KD,~,~,~,~,~,~,~,~,~,70*63,100*108,M*M,-,~,~,~
+Air Raid Kick,Air Target Combo 2,7+3,5,~,~,~,~,~,~,~,~,~,~,~,60*36,100*63,M*M,-,~,~,~
+Axel Knuckle,Overhead,25,2,21,0,-7,~,~,~,~,~,~,~,~,80,150,M,-,~,~,~
+Hammer Kick,Crack Kick,19,1*2,20,5*2,-4*-2,23,14,20,11,-1,-10,-21,-30,60*40,100*50,H*H,sp/su/vs/vt,~,~,~
+Slip Jab,Final Fight Chain 1st,4+4,2,17,-2,-6,~,~,~,~,~,~,~,~,30*27,70*45,H*H,-,~,~,~
+Crime Blow,Final Fight Chain 2nd,4+4+6,3,26,-4,-7,~,~,~,~,~,~,~,~,30*27*40 (97),70*45*64 (179),H*H*H,-,~,~,~
+Final Combination,Final Fight Chain 3rd,4+4+6+9,2,33,KD,-13,KDA(+115/56/61),16,KDA(+112/53/58),13,~,~,KD(+71/12/17),-28,30*27*40*49 (146),70*45*64*84 (263),H*H*H*H,vt,86,27,32
+Final Combo Throw,Final Fight Chain Throw,4+4+6+5,3,~,KD,~,~,~,~,~,~,~,~,~,30*27*40*14x2*49 (179),70*45*64*105 (284),H*H*H*T,-,54,5,5
+Bad Spray,Pocket Sand,3(20~25),4,14,2,-2,~,~,~,~,~,~,~,~,,,H,-,~,~,~
+Trash Out,Throw,5,3,17,KD,~,~,~,~,~,~,~,~,~,120,150,T,-,53,4,4
+Crime Throw,Back Throw,5,3,17,KD,~,~,~,~,~,~,~,~,~,150,200,T,-,54,5,5
+Double Kick,VSkill,14,3(7)3,9+26,KD,-29,~,~,~,~,~,~,~,~,80,70,H,-,64,5,10
+Crack Combination,Crack VSkill,19+9,3(8)3,9+26,KD,-29,~,~,~,~,~,~,~,~,60*40*72 (172),100*50*63 (213),H*H,-,64,5,10
+Side Arm,VTrigger 1,1,~,4,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Dirty Coach,VTrigger 2,1,~,7,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Prison Breaker,VReversal,17,2,23,KD,-2,~,~,~,~,~,~,~,~,60,,H,-,86(89),27(30),32(35)
+Tornado Sweep LP,LP Fireball,18,65,31,-2,-7,~,~,~,~,~,~,~,~,50,100,H,su,~,~,~
+Tornado Sweep MP,MP Fireball,18,52,31,0,-7,~,~,~,~,~,~,~,~,50,100,H,su,~,~,~
+Tornado Sweep HP,HP Fireball,18,39,31,2,-7,~,~,~,~,~,~,~,~,50,100,H,su,~,~,~
+Tornado Sweep EX,EX Fireball,18,~,27,4,2,~,~,~,~,~,~,~,~,40*40,60*60,H*H,-,~,~,~
+Ruffian Kick LK,LK Ruffian,18,5,23,KD,-8,~,~,~,~,~,~,KD(+47/-2/+3),~,100,150,L,su,69(73),20(24),25(29)
+Ruffian Kick MK,MK Ruffian,12,4,29,KD,-10,~,~,~,~,~,~,KD(+59/0/5),~,120,150,H,su,77(79),18(20),23(25)
+Ruffian Kick HK,HK Ruffian,10,7,23,KD,-12,~,~,~,~,~,~,KD(+64/5/10),~,130,150,H,su,84(90),25(31),30(36)
+Ruffian Kick EX,EX Ruffian,16,5,25,KD,-12,~,~,~,~,~,~,KD(+72/13/18)*(+85/26/31),~,30*50,50*100,L*H,-,111,52,57
+Zonk Knuckle,Bingo,20,3,20(21),3,-2,~,~,~,~,~,~,-25,~,80,150,H,su,~,~,~
+Zonk Knuckle EX,EX Bingo,15,3(19)2,13(18),KD,3,19,18,16,15,~,~,-25*KD(+62/3/8),~,80*50,100*100,H*H,vt,97,38,43
+Criminal Punisher,Super,7,13(27),73,KD,-35,~,~,~,~,~,~,~,~,330,0,H,-,69,10,15
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,xx Knife Reload oH,xx Knife Reload oB,xx Bean Ball oH,xx Bean Ball oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

@@ -1,0 +1,65 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 1 dash oH,xx VTrigger 1 dash oB,xx Transform (Zeku) oH,xx Transform (Zeku) oB,xx Run > Stop oH,xx Run > Stop oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,9,3,2,2,1,-12,-13,-12,-13,-10(-7),-11(-8),30,70,H,ch/sp/su/vt1/vt2,~,~,~
+stand MP,stand MP,5,2,16,8,2,14,8,0,-6,~,~,~,~,60,100,H,vt1/vt2,~,~,~
+stand HP,stand HP,12,2,20(25),2,-3,12,8,-2,-6,-2,-6,0(3),-5(-2),80,150,H,sp/su/vt1/vt2,~,~,~
+stand LK,stand LK,4,4,7,4,3,3,2,-11,-12,-11,-12,-9(-6),-10(-7),40,70,H,sp/su/vt1/vt2,~,~,~
+stand MK,stand MK,7,3,17,2,-3,10,5,-4,-9,~,~,~,~,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,12,4,19(24),3,-2,14,9,0,-5,~,~,~,~,90,150,H,vt1/vt2,~,~,~
+crouch LP,crouch LP,3,2,8,4,2,1,-1,-12,-14,-12,-14,-10(-7),-12(-9),20,70,H,sp/su/vt1/vt2,~,~,~
+crouch MP,crouch MP,6,3,14,5,1,10,6,-4,-8,-4,-8,-2(1),-6(-3),60,100,H,sp/vt1/vt2,~,~,~
+crouch HP,crouch HP,10,3,20(25),1,-5,12,6,-2,-8,~,~,~,~,80,150,H,su/vt1/vt2,~,~,~
+crouch LK,crouch LK,5,2,8,3,2,1,0,-13,-14,~,~,~,~,20,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,7,3,16,2,-3,9,4,-5,-10,~,~,~,~,50,100,L,vt1/vt2,~,~,~
+crouch HK,crouch HK,10,7,20,KD,-13,KD (+89/36/41),6,KD (+75/22/27),-8,~,~,~,~,90,150,L,vt1/vt2,66,17,22
+crouch HK late hit,crouch HK late hit,17,4,20,3,-10,15,2,1,-12,~,~,~,~,60,150,L,vt1/vt2,~,~,~
+jump LP,jump LP,5,6,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,8,2,~,~,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HP,jump HP,8,4,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,5,6,~,~,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,7,4,~,~,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,8,4,~,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Kubi Kudaki,Overhead,22,1*1,22,1,-6,~,~,~,~,~,~,~,~,40*40,50*50,M*M,-,~,~,~
+Kaeshi Saiha,HP > HP,12+10,2,25,KD,-8,KD (+103/44/49),7,~,~,KD (+89/30/35),~,KD (+91/32/37),~,80*54 (134),150*90 (240),H*H,sp/su/vt1/vt2,88,29,34
+Kaeshi Urasaiha,d+HP > d+HP,10+9,1,28,KD,-10,KD (+103/44/49),7,~,~,KD (+89/30/35),~,KD (+91/32/37),~,80*54 (134),150*90 (240),H*H,sp/su/vt1/vt2,86,27,32
+Kagerou,HP > HP > Vskill,12+10+14,2,31,KD,-7,~,~,~,~,~,~,~,~,80*54*40*24 (198),150*90*0*120 (360),H*H*H,su,81,22,27
+Urakagerou,d+HP > d+HP > Vskill,10+9+14,2,31,KD,-7,~,~,~,~,~,~,~,~,80*54*40*24 (198),150*90*0*120 (360),H*H*H,su,81,22,27
+Bushin Soukosou,MP > HP,5+13,2,24,-2,-6,12,8,~,~,-2,~,0(3),~,60*45 (105),100*90 (190),H*H,sp/su/vt1/vt2,~,~,~
+Bushin Gokusanken - Ni,Bushin Chain LP > MP,4+5,3,22,-3,-7,~,~,~,~,~,~,~,~,30*45 (75),70*72 (142),H*H,-,~,~,~
+Bushin Gokusanken - San,Bushin Chain LP > MP > HP,4+5+11,4,30,KD,-11,~,~,~,~,~,~,~,~,30*45*24*32 (131),70*72*40*40 (222),H*H*H,-,85,26,31
+Bushin Gokusanken - Shu,Bushin Chain LP > MP > HP > HK,4+5+11+16,7,27,KD,-16,~,~,~,~,~,~,~,~,30*45*24*32*56 (187),70*72*40*40*70 (292),H*H*H*H,-,82,23,28
+Bushin Gokusanage,Bushin Chain Throw,4+5+11+7,2,29,KD,~,~,~,~,~,~,~,~,~,30*45*24*70 (169),70*72*40*140 (322),H*H*H*T,-,64,15,15
+Sankagu Tobi,Wall Jump,~,~,~,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Hassou Tobi,Super Wall Jump,~,~,~,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Shidenkyaku,Divekick,27,~,4,~,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Tesso,Throw,5,3,17,KD,~,~,~,~,~,~,~,~,~,140,150,T,-,61,12,12
+Raiju,Back Throw,5,3,17,KD,~,~,~,~,~,~,~,~,~,160,200,T,-,63,14,14
+Tenpo Kari,VSkill,14,2,31,KD,-7,~,~,~,~,~,~,~,~,50*40,150,H,su/vt2,79,20,25
+Bushinryu Shingekiko,VTrigger,1,~,5,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Idaten,VTrigger Dash,~,~,25,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Seiryukyaku,VTrigger Attack,14(21),5,21,KD,-2,~,~,~,~,~,~,~,~,160,200,H,su,80,21,26
+Karura Tenzan,VTrigger 2,1+5,8,22+17,KD,-28,~,~,~,~,~,~,~,~,40*20x2*60 (140),150,H,-,92(93),33(34),38(39)
+Karura Tenzan (Secondary),VTrigger 2 (secondary),10,8,22+17,KD,-28,~,~,~,~,~,~,~,~,40*20x2*60 (140),150,H,-,92(93),33(34),38(39)
+Toushi,VReversal,12,2,24,2,-2,~,~,~,~,~,~,~,~,40,0,H,-,85,26,31
+Shukumyo,Transform,~,~,25,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Bushin Sho LP,LP Palm,12,6,20,KD,-4,~,~,~,~,KD (+77/18/23),~,~,~,60,150,H,su/vt2,83,24,29
+Bushin Sho MP,MP Palm,18,6,16,KD,-2,~,~,~,~,KD (+77/18/23),~,~,~,50*40,100*50,H,su/vt2,87,28,33
+Bushin Sho HP,HP Palm,24,6,15,KD,2,~,~,~,~,KD (+77/18/23),~,~,~,30*30*60,50*50*100,H,su/vt2,88,29,34
+Bushin Sho EX,EX Palm,23,6,21,KD,2,~,~,~,~,KD (+78/46/46),~,~,~,80,150,H,vt2,83,51,51
+Hozanto LP,LP Shoulder,12,6,12(22),KD,-6,~,~,~,~,KD (+93/34/39),~,~,~,60,150,H,su/vt2,107,48,53
+Hozanto MP,MP Shoulder,22,6,13,KD,-6,~,~,~,~,KD (+95/36/41),~,~,~,70,150,H,su/vt2,108,49,54
+Hozanto HP,HP Shoulder,26,5,15,KD,-6,~,~,~,~,KD (+107/48/53),~,~,~,90,150,H,su/vt2,111,52,57
+Hozanto EX,EX Shoulder,16,4,14,KD,-6,~,~,~,~,KD (+97/38/43),~,~,~,50*50,150,H,vt2,109,50,55
+Bushin Sangoku Otoshi LP,LP Air Grab,4,2,6,KD,~,~,~,~,~,KD (+16/16/16),~,~,~,120,200,T,-,16,16,16
+Bushin Sangoku Otoshi MP,MP Air Grab,5,2,6,KD,~,~,~,~,~,KD (+16/16/16),~,~,~,130,200,T,-,16,16,16
+Bushin Sangoku Otoshi HP,HP Air Grab,6,2,6,KD,~,~,~,~,~,KD (+16/16/16),~,~,~,140,200,T,-,16,16,16
+Bushin Sangoku Otoshi EX,EX Air Grab,4,2,6,KD,~,~,~,~,~,KD (+16/16/16),~,~,~,60*100,200,H,-,16,16,16
+Hayagake,Run,8,~,~,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Hayagake EX,EX Run,8,~,~,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Tozetsu,Run Stop,8,~,15,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Ashikari,Run Slide,8+9,9,27,KD,-21,~,~,~,~,KD (+62/13/18),~,~,~,100,120,L,-,61,12,17
+Gekkou,Run Overhead,8+22,2*2,24,KD,-5,~,~,~,~,KD (+69/20/25),~,~,~,70*50,100*50,M*H,-,71,22,27
+Tozetsu EX,EX Run Stop,8,~,12,~,~,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Ashikari EX,EX Run Slide,8+9,9,27,KD,-21,~,~,~,~,KD (+62/13/18),~,~,~,130,200,L,-,61,12,17
+Gekkou EX,EX Run Overhead,8+22,2*2,24,KD,-2,~,~,~,~,KD (+66/17/22),~,~,~,100*50,100x2,M*H,-,71,22,27
+Batsuzan Gaisei,Super,4,8,47,KD,-33,~,~,~,~,~,~,~,~,340,0,H,-,16,16,16
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 1 dash oH,xx VTrigger 1 dash oB,xx Transform (Zeku) oH,xx Transform (Zeku) oB,xx Run > Stop oH,xx Run > Stop oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

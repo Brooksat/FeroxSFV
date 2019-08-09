@@ -1,0 +1,72 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH Gap,xx VTrigger 1 oB Gap,xx VTrigger 2 oH,xx VTrigger 2 oB,xx Roll (VSkill) oH,xx Roll (VSkill) oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,4,2,7,4,3,-14,-15,5,4,-20,-21,30,70,H,ch/sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,5,2,14,6,3,-5,-8,14,11,-11,-14,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HP,stand HP,8,2,19,2,-3,-4,-9,7,2,-10,-15,80,150,H,sp/su/vs/vt1/vt2,~,~,~
+stand LK,stand LK,3,3,9,2,1,-13,-14,3,2,-19,-20,30,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,8,3,17,1,-4,-7,-11,12,7,~,~,60,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,16,2,22,2,-4,-4,-10,15,9,~,~,90,150,H,vt1/vt2,107,48,53
+crouch LP,crouch LP,4,3,5,4,2,-15,-17,4,2,-21,-23,30,70,H,ch/sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,7,3,15,3,1,-6,-8,13,11,-12,-14,60,100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,10,2(1)2,22,6,-2,-4*3,-8*-5,15*8,11*0,-10,-14,40*40,50*100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch LK,crouch LK,4,2,8,2,0,-15,-17,4,2,~,~,20,70,L,ch/vt1/vt2,~,~,~
+crouch MK,crouch MK,6,2,15,1,-3,-9,-13,5,1,-15,-19,50,100,L,sp/su/vs/vt1/vt2,~,~,~
+crouch HK,crouch HK,7,2,25,KD,-12,KD (+67/18/23),-12,KD (+86/37/42),7,~,~,90,150,L,vt1/vt2,67,18,23
+jump LP,jump LP,4,4,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MP,jump MP,7,6,~,~,~,~,~,~,~,~,~,50,100,M,-,~,~,~
+jump HP,jump HP,7,3,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+jump LK,jump LK,4,4,~,~,~,~,~,~,~,~,~,40,70,M,-,~,~,~
+jump MK,jump MK,5,5,~,~,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,8,5,~,~,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Flap Spin,Wall Jump,~,~,~,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Beak Assault,f+MP,8,2(14)3,14,2,-2,-4,-10,15,9,-10,-16,50*20,70*30,H*H,sp/su/vs/vt1/vt2,~,~,~
+Spinning Mixer (run),Overhead,23,2,17,0,-6,~,~,~,~,~,~,80,150,M,-,~,~,~
+Spinning Mixer (lvl 2) (run),Run Mixer,Run+8,1*1(2)2(2)1(4)1,10+13,1,-2,~,~,~,~,~,~,20x4*9 (89),20x4*23 (103),H,-,~,~,~
+Spinning Mixer (lvl 3) (run),Run Mixer (lvl 2),Run+8,1*1(2)2(2)1(4)1(5)1(4)1(3)1(4)1,9+16,-1,-4,~,~,~,~,~,~,20x4*9*8x4 (121),20x4*23*21x4 (187),H,-,~,~,~
+Spinning Mixer (run) (wind),Run Mixer (lvl 3),Run+8,1*1(2)2(2)1(4)1(5)1(4)1(3)1(4)1(4)1(4)1,8+22,KD,-11,~,~,~,~,~,~,20x4*9*8x4*7*12 (140),20x4*23*21x4*18*20 (225),H,-,79,20,25
+Eagle Spike (run),Run Mixer (wind),Run+8,1*1(2)2(2)1(5)1(3)1(5)1(3)1(5)1(3)1(5)1,21,KD,0,~,~,~,~,~,~,20x4*12x6*15 (167),20x11 (220),H,-,92,33,38
+Eagle Spike (run) (wind),Run Spike,Run+13,8,23,KD,-21,~,~,~,~,~,~,140,200,H,-,71,12,17
+Wall Jump,Run Spike (wind),Run+13,~,~,KD,-21,~,~,~,~,~,~,150,200,H,-,71,12,17
+Riding Glider,Throw,5,3,17,KD,~,~,~,~,~,~,~,130,150,T,-,71,12,12
+Rising Sun,Back Throw,5,3,17,KD,~,~,~,~,~,~,~,140,150,T,-,69,20,20
+Ysaar,VTrigger 1,16,250,10,KD,34,~,~,~,~,~,~,40x3 (120),50x3 (150),H*H*H,-,150,91,96
+Easifa,VTrigger 2,1,~,6,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Front Flip,VSkill,14,~,28+13,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Airborne Eagle Spike LK (V-Skill),VSkill > LK,14+18,~,31+16(20),KD,-24(3),~,~,~,~,~,~,120,200,H,-,64(68),5(9),10(14)
+Airborne Eagle Spike MK (V-Skill),VSkill > MK,14+20,~,31+16(20),KD,-24(3),~,~,~,~,~,~,120,200,H,-,64(70),5(11),10(16)
+Airborne Eagle Spike HK (V-Skill),VSkill > HK,14+22,~,31+16(20),KD,-24(3),~,~,~,~,~,~,120,200,H,-,64(70),5(11),10(16)
+Airborne Eagle Spike EX (V-Skill),VSkill > KK,14+15,~,31+16,KD,-27(-24),~,~,~,~,~,~,70*70,100*100,H,-,71(72),12(13),17(18)
+Rolling Assault,D+VSkill,~,~,32,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Nail Assault,D+VSkill > K,16+6,4,21,KD,-6,~,~,~,~,~,~,80,100,H,su,101,42,47
+Sliding Roll,VReversal,1,~,33,~,~,~,~,~,~,~,~,,,,-,~,~,~
+spinning mixer LP,LP Mixer,8,1*1(2)2,10+11(10+16),0,-2,~,~,~,~,~,~,17x2*10 (44),13x2*20 (46),H,su,~,~,~
+spinning mixer LP (lvl 2),LP Mixer (lvl 2),8,1*1(2)2(3)1(4)1,8+13,1,-5,~,~,~,~,~,~,17x2*10*9x2(62),13x2*20*25x2 (96),H,-,~,~,~
+spinning mixer LP (lvl 3),LP Mixer (lvl 3),8,1*1(2)2(3)1(4)1(3)1 (4)1,8+21,KD,-10,~,~,~,~,~,~,17x2*10*9x4(80),13x2*20*25x3*29 (150),H,-,80,21,26
+spinning mixer MP,MP Mixer,8,1*1(2)1(4)1(4)1,20+13,KD,-31,~,~,~,~,~,~,10*12x3*9 (55),14x2*21x3 (91),H,su,99,40,45
+spinning mixer MP (lvl 2),MP Mixer (lvl 2),8,1*1(2)1(4)1(4)1(3)1 (4)1,28+13,KD,-43,~,~,~,~,~,~,10*12x3*9*12x2 (79),14x2*21x5 (133),H,su,91,32,37
+spinning mixer MP (lvl 3),MP Mixer (lvl 3),8,1*1(2)1(4)1(4)1(3)1 (4)1(3)1(4)1,32+13,KD,-56,~,~,~,~,~,~,10*12x3*9*12x3*9 (100),14x2*21x7 (175),H,-,94,35,40
+spinning mixer HP,HP mixer,5,2*1(3)2(2)2,24+18,KD,-36,~,~,~,~,~,~,14x2*18x2 (64),11*10*29x2 (79),H,-,83,22,27
+spinning mixer HP (lvl 2),HP Mixer (lvl 2),5,2*1(3)2(2)2(2)3(2)3,30+18,KD,-48,~,~,~,~,~,~,14x2*18x4 (100),11*10*29x4 (137),H,-,81,21,26
+spinning mixer HP (lvl 3),HP Mixer (lvl 3),5,2*1(3)2(2)2(2)3(2)3(2)3(2)3,35+18,KD,-62,~,~,~,~,~,~,14x2*18x5*22 (140),11*10*29x5*34 (200),H,-,81,21,26
+spinning mixer (wind),Mixer (wind),8,1*1(2)2(2)1(5)1(3)1(5)1(3)1(5)1(3)1(5)1,21,KD,0,~,~,~,~,~,~,20x3*12x6*15 (147),20x10 (220),H,-,92,33,38
+spinning mixer EX,EX Mixer,8,2(2)1(3)1(4)1,41,KD,-39,~,~,~,~,~,~,25*20*12x2*11 (80),31*25*17x2*14 (104),H,-,87,28,33
+spinning mixer EX (lvl 2),EX Mixer (lvl 2),8,~,~,KD,-39,~,~,~,~,~,~,25*20*12x2*11*12x3*11 (127),31*25*17x2*14*17x3*14 (169),H,-,85,26,31
+spinning mixer EX (lvl 3),EX Mixer (lvl 3),8,~,~,KD,-39,~,~,~,~,~,~,25*20*12x2*11*12x3*11*12*11 (150),31*25*17x2*14*17x3*14*17*14 (200),H,-,87,28,33
+spinning mixer EX (wind),EX Mixer (wind),8,2(2)1(3)1(4)1(2)1(4)1(4)1(5)1(4)1(4)1,41,KD,~,~,~,~,~,~,~,20x2*14x8*18 (170),20x11 (220),H,-,92,33,38
+Eagle Spike LK,LK Lunge Kick,11(15),8,5+12(27+16),KD,-20,~,~,~,~,~,~,100,150,H,-,86,27,32
+Eagle Spike MK,MK Lunge Kick,21,9,6+14(28+15),KD,-20,~,~,~,~,~,~,120,150,H,-,84,25,30
+Eagle Spike HK,HK Lunge Kick,22,16,6+20(28+15),KD,-20,~,~,~,~,~,~,130,200,H,-,76,17,22
+Eagle Spike (wind),Lunge Kick (wind),13,~,?,KD,-20,~,~,~,~,~,~,150,200,H,-,71,12,17
+Eagle Spike EX,EX Lunge Kick,19,6,5+19(28+15),KD,-23,~,~,~,~,~,~,100,150,H,-,105,46,51
+Eagle Spike EX (wind),EX Lunge Kick (wind),19,~,?,KD,-3,~,~,~,~,~,~,160,200,H,-,111,52,57
+Airborne Eagle Spike LK,LK Air Lunge Kick,18,~,49+16(20),KD,-35(3),~,~,~,~,~,~,120,200,H,-,~,~,~
+Airborne Eagle Spike MK,MK Air Lunge Kick,20,~,49+16(20),KD,-35(3),~,~,~,~,~,~,120,200,H,-,~,~,~
+Airborne Eagle Spike HK,HK Air Lunge Kick,22,~,49+16(20),KD,-35(3),~,~,~,~,~,~,120,200,H,-,~,~,~
+Airborne Eagle Spike EX,EX Air Lunge Kick,15,~,49+16(~),KD,-35,~,~,~,~,~,~,70*70,100*100,H,-,~,~,~
+Airborne Eagle Spike EX (wind),EX Air Lunge Kick (wind),15,~,~,KD,~,~,~,~,~,~,~,85*85,100*100,H,-,~,~,~
+Whirlwind Shot LK,LK Fireball,17,35,35,-2,-5,~,~,~,~,~,~,60,100,H,su,~,~,~
+Whirlwind Shot MK,MK Fireball,23,35,37,1,-2,~,~,~,~,~,~,30*30,70*70,H,su,~,~,~
+Whirlwind Shot HK,HK Fireball,34,35,36,4,1,~,~,~,~,5(23),2(20),30*30,70*70,H,vs/su,~,~,~
+Whirlwind Shot EX,EX Fireball,23,35,35,12,9,~,~,~,~,13(40),10(37),30x3,60x3,H,vs,~,~,~
+Altair,Super,8,30,43,KD,-51,~,~,~,~,~,~,340,0,H,-,71,12,12
+Forward Dash (run),Run,9,~,6,~,~,~,~,~,~,~,~,,,,-,~,~,~
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH Gap,xx VTrigger 1 oB Gap,xx VTrigger 2 oH,xx VTrigger 2 oB,xx Roll (VSkill) oH,xx Roll (VSkill) oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv

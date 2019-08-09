@@ -187,7 +187,7 @@ for name in nameArr:
 #print(frameDataTable)
 
 
-#driver.quit()
+driver.quit()
 
 
 

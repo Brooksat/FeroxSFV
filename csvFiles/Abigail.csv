@@ -1,0 +1,69 @@
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
+stand LP,stand LP,5,3,10,4,3,8,7,8,7,40,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MP,stand MP,9,3,18,7,5,21,19,21,19,70,100,H,sp/su/vs/vt1/vt2,~,~,~
+stand HP,stand HP,20,4,25,0,-3,25,22,22,19,90,150,H,vt1/vt2,102,70,70
+stand LK,stand LK,6,3,12,4,3,11,10,11,10,50,70,H,sp/su/vs/vt1/vt2,~,~,~
+stand MK,stand MK,11,3,18,2,0,16,14,16,14,80,100,H,vt1/vt2,~,~,~
+stand HK,stand HK,18,4,29,KD,-8,KD (+113/54/59),18,KD (+113/54/59),18,90,150,H,su/vt1/vt2,84,25,30
+crouch LP,crouch LP,6,3,12,4,3,8,7,8,7,40,70,H,sp/su/vs/vt1/vt2,~,~,~
+crouch MP,crouch MP,13,4,18,2,-3,17,12,17,12,70,100,H,sp/su/vs/vt1/vt2,~,~,~
+crouch HP,crouch HP,11,5,35,-13,-18,20,15,20,15,90,150,H,sp/su/vs/vt1/vt2,87,28,33
+crouch LK,crouch LK,4,2,12,5,2,11,8,11,8,40,70,L,vt1/vt2,~,~,~
+crouch MK,crouch MK,12,2,21,0,-3,16,13,16,13,60,100,L,sp/su/vs/vt1/vt2,~,~,~
+crouch HK,crouch HK,16,2(2)4,32,KD,-14,25,13,22,13,50*70 (120),50*100 (150),H*L,vt1/vt2,61,12,17
+jump LP,jump LP,5,5,~,~,~,~,~,~,~,60,70,M,-,~,~,~
+jump MP,jump MP,14,5,~,~,~,~,~,~,~,70,100,M,-,~,~,~
+jump HP,jump HP,12,6,~,~,~,~,~,~,~,110,150,M,-,~,~,~
+jump LK,jump LK,4,5,~,~,~,~,~,~,~,60,70,M,-,~,~,~
+jump MK,jump MK,10,3,~,~,~,~,~,~,~,60,100,M,-,~,~,~
+jump HK,jump HK,14,5,~,~,~,~,~,~,~,90,150,M,-,~,~,~
+Abi Hammer,Overhead,21,3,23,3,-8,~,~,~,~,70,100,M,-,~,~,~
+Abi Lift,f+HP,10,5,18,4,1,20,17,20,17,90,150,H,sp/su/vs/vt1/vt2,~,~,~
+Abi Blaster,b+HP,7,2,30(35),-3,-6,22,19,22,19,90,150,H,sp/su/vs/vt1/vt2,~,~,~
+Abi Scissor,db+HK,13,2,30,KD,-14,KD (+90/41/46),11,KD (+90/41/46),11,90,150,L,vt1/vt2,65,16,21
+Abi Twist,b+HP > HP,7+17,2(16)2,29,KD,-9,KD (+110/51/56),14,KD (+110/51/56),14,90*81 (171),150*135 (285),H,su/vt1/vt2,87,28,33
+Vroom Vroom,LP > LP,5+3,3(4)2,11,4,3,6,5,6,5,40*27 (67),70*63 (133),H,sp/su/vs/vt1/vt2,~,~,~
+Bang Bang,cr.LP > cr.LP,6+4,2(6)3,9,4,3,5,4,5,4,40*27 (67),70*63 (133),H,sp/su/vs/vt1/vt2,~,~,~
+Red Leaf,Throw,5,3,17,KD,~,~,~,~,~,140,170,T,-,67,18,18
+Hit & Run,Back Throw,5,3,17,KD,~,~,~,~,~,130,170,T,-,52,3,3
+Max Power,VTrigger 1,1,~,5,~,~,~,~,~,~,,,-,-,~,~,~
+Hybrid Charge,VTrigger 2,1,~,5,~,~,~,~,~,~,,,-,-,~,~,~
+Hungabee High,VSkill high,3,10,31,~,~,~,~,~,~,,,H,-,~,~,~
+Hungabee Low,VSkill low,3,10,31,~,~,~,~,~,~,,,H,-,~,~,~
+Hungabee Parry,Parry,4,8,20,22,~,~,~,~,~,30,70,H,sp/su,~,~,~
+Ontario Drop,VReversal,17,2,26,KD,-2,~,~,~,~,60,0,H,-,81,22,27
+Abigail Punch LP,LP Punches,14,2,31,KD,-16,~,~,KD (+107/48/53),~,100,120,H,su/vt2,86,27,32
+Abigail Punch LP mash,LP Punches (mash),14,2,31,KD,-16,~,~,KD (+109/50/55),~,120,150,H,su/vt2,80,21,26
+Abigail Punch MP,MP Punches,20,2,31,KD,-19,~,~,KD (+107/48/53),~,110,120,T,su/vt2,86,27,32
+Abigail Punch MP mash,MP Punches (mash),20,2,31,KD,-19,~,~,KD (+109/50/55),~,130,150,H,su/vt2,80,21,26
+Abigail Punch HP,HP Punches,16,2,31,KD,-16,~,~,KD (+107/48/53),~,120,120,H,su/vt2,86,27,32
+Abigail Punch HP mash,HP Punches (mash),16,2,31,KD,-16,~,~,KD (+109/50/55),~,140,150,H,su/vt2,80,21,26
+Abigail Punch EX,EX Punches,14,2,38,KD,-23,~,~,KD (+121/62/67),~,140,150,H,vt2,89,30,35
+Abigail Punch EX mash,EX Punches (mash),14,2,38,KD,-23,~,~,KD (+122/63/68),~,160,200,H,vt2,82,23,28
+Giant Flip LP,LP Flip,23,3*4,22,KD,0,~,~,~,~,50*20 (70),70*30 (100),H,su,90,31,36
+Giant Flip MP,MP Flip,33,2*4,22,KD,1,~,~,~,~,50*30 (80),70*30 (100),H,su,90,31,36
+Giant Flip HP,HP Flip,36,2*4,23,KD,2,~,~,~,~,50*50 (100),90*60 (150),H,su,89,30,35
+Giant Flip EX,EX Flip,9*34,3(22)2(0)3,24,KD,-2,~,~,~,~,20*20*40 (80),30*50*70 (150),H,-,110,51,56
+Giant Flip EX Mash,EX Flip mash,30,4*2,26,KD,-8,~,~,~,~,50*20 (70),70*30 (100),H,-,90,31,36
+Abigail Smash LK,LK SPD,6,2,60,KD,~,~,~,~,~,180,250,T,-,73,24,24
+Abigail Smash MK,MK SPD,6,2,60,KD,~,~,~,~,~,200,250,T,-,73,24,24
+Abigail Smash HK,HK SPD,6,2,60,KD,~,~,~,~,~,220,250,T,-,73,24,24
+Abigail Smash EX (corner),EX SPD (corner),6,2,60,KD,~,~,~,~,~,100,100,T,-,92,33,33
+Abigail Smash EX (midscreen),EX SPD (midscreen),6,2,60,KD,~,~,~,~,~,80,100,T,-,101,42,42
+Nitro Blitz,Run,12,~,~,~,~,~,~,~,~,,,-,-,~,~,~
+Nitro Charge,Vroom Stance,1,~,124,~,~,~,~,~,~,,,-,-,~,~,~
+Nitro Blitz  > Drop Back,Back Roll,~,~,37,~,~,~,~,~,~,,,-,-,~,~,~
+Nitro Blitz  > Dynamite Punch,Run Punch,Run+15,3,29,KD,-9,~,~,~,16,100,200,H,su,85,26,31
+Nitro Blitz  > Avalanche Press,Run Overhead,Run+23,5(1)2,35,KD,-12,~,~,~,~,80*70 (150),150*50 (200),M,-,79,20,25
+Nitro Blitz  > Bay Area Sunrise,Run Grab,Run+8,2,60,KD,~,~,~,~,~,200,250,T,-,75,26,26
+Nitro Blitz  > Nitro Hungabee High,Run Vskill high,Run+3,10,31,~,~,~,~,~,~,,,H,-,~,~,~
+Nitro Blitz  > Nitro Hungabee Low,Run Vskill low,Run+3,10,31,~,~,~,~,~,~,,,H,-,~,~,~
+Nitro Blitz  > Nitro Hungabee Parry,Run Parry,4,8,20,22,~,~,~,~,~,30,70,H,sp/su,~,~,~
+EX Nitro Charge,EX Run,3*39,2(23)2(23)2(19)2(14)3,30,KD,-9,~,~,~,~,170,259,H,-,88,51,56
+EX Nitro Charge > EX Dynamite Punch,EX Run Punch,EX Run+15,3,29,KD (10),-9,~,~,~,16,100,200,H,-,88,51,56
+EX Nitro Charge > EX Avalanche Press,EX Run Overhead,EX Run+21,5(1)2,35,KD,-12,~,~,~,~,90*80 (170),150*50 (200),M,-,80,21,26
+EX Nitro Charge > EX Bay Area Sunrise,EX Run Grab,EX Run+8,2,52,KD,~,~,~,~,~,240,300,T,-,75,26,26
+EX Nitro Charge > EX Nitro Hungabee,EX Run Vskill,EX Run+2,10,31,~,~,~,~,~,~,,,-,-,~,~,~
+EX Nitro Charge > EX Nitro Hungabee (Parry),EX Run Parry,4,8,20,27,~,~,~,~,~,40,70,H,sp,~,~,~
+Abigail Special,Super,4,4,118,KD,-95,~,~,~,~,350,0,H,-,29,29,29
+Move Name,Move Name,Startup,Active,Recovery,On Hit,On Block,xx VTrigger 1 oH,xx VTrigger 1 oB,xx VTrigger 2 oH,xx VTrigger 2 oB,Damage,Stun,Attack Lvl,Cancel Into,KD Adv,KDR Adv,KDRB Adv
