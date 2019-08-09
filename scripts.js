@@ -1,4 +1,20 @@
 /* eslint-env browser */
+var p2Moves = document.getElementById("p2Moves");
+
+p2Moves.addEventListener("click", selectItem);
+
+function selectItem(e) {
+
+    if (e.target.nodeName == "LI") {
+        console.log("li element click");
+        for (var i = 0; i < e.target.parentNode.children.length; i++) {
+            e.target.parentNode.children[i].classList.remove("selected");
+        }
+
+        e.target.classList.add("selected");
+    }
+}
+
 function toggleVisibility(elementID) {
     var x = document.getElementById(elementID);
     if (x.style.display === "none") {
@@ -44,7 +60,7 @@ function getUserMoves(el) {
         return;
     } else {
         if (window.XMLHttpRequest) {
-            xmlhttp = new XMLHttpRequest();
+            var xmlhttp = new XMLHttpRequest();
         } else {
             //
         }
@@ -59,39 +75,37 @@ function getUserMoves(el) {
     }
 }
 
-//sets the selected element of a list
-function setSelectedMove(el) {
-    el.classList.add("selected");
-    var frameData = el.getElementsByTagName("p")[1];
-    updateP1Moves(frameData.innerHTML);
-}
+////sets the selected element of a list
+//function setSelectedMove(el) {
+//    el.classList.add("selected");
+//    var frameData = el.getElementsByTagName("p")[1];
+//    updateP1Moves(frameData.innerHTML);
+//}
 // update p1 list of moves to show what you can punish with
 function updateP1Moves(onBlock) {
     if (!isNaN(onBlock)) {
-        
-            
-            console.log(onBlock);
-            var moveList = document.getElementById("p1Moves");
-            var moves = moveList.getElementsByTagName("li");
-            for (var i = 0; i < moves.length; ++i) {
-                start_up = moves[i].getElementsByTagName("p")[1].innerHTML;
-                if(!isEmptyOrSpaces(onBlock ) && start_up <= (onBlock*-1) && onBlock <0 ){
-                    moves[i].classList.add("canPunishWith");
-                    moves[i].classList.remove("cannotPunishWith");
-                }
-                else{
-                    moves[i].classList.remove("canPunishWith");
-                    moves[i].classList.add("cannotPunishWith");
-                }
-            }
 
-        
-    }
-    else{
+
+        console.log(onBlock);
+        var moveList = document.getElementById("p1Moves");
+        var moves = moveList.getElementsByTagName("li");
+        for (var i = 0; i < moves.length; ++i) {
+            var start_up = moves[i].getElementsByTagName("p")[1].innerHTML;
+            if (!isEmptyOrSpaces(onBlock) && start_up <= (onBlock * -1) && onBlock < 0) {
+                moves[i].classList.add("canPunishWith");
+                moves[i].classList.remove("cannotPunishWith");
+            } else {
+                moves[i].classList.remove("canPunishWith");
+                moves[i].classList.add("cannotPunishWith");
+            }
+        }
+
+
+    } else {
         console.log("Frame data is not a number")
     }
 }
 
-function isEmptyOrSpaces(str){
+function isEmptyOrSpaces(str) {
     return str === null || str.match(/^ *$/) !== null;
 }

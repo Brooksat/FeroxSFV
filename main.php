@@ -11,7 +11,7 @@ $charList = getCharacterList();
 <head>
     <title>SFV Frame Data</title>
     <link rel="stylesheet" type="text/css" href="design.css"> 
-    <script src="scripts.js"></script>
+    
 </head>
 
 <body>
@@ -55,6 +55,7 @@ $charList = getCharacterList();
             </ul>
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>

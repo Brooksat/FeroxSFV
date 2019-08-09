@@ -18,7 +18,7 @@ while ($row = mysqli_fetch_assoc($moveset)) {
         }
     } elseif ($p == "2") {
         if (!is_null($row['on_block'])) {
-            echo ("<li class = \"listItem p1List\" onClick=\"setSelectedMove(this)\"><p>{$row['move_name_common']}: </p><p>{$row['on_block']}</p></li>");
+            echo ("<li class = \"listItem p1List\"><p>{$row['move_name_common']}: </p><p>{$row['on_block']}</p></li>");
         }
     } else {
         echo ("Player was not received");
