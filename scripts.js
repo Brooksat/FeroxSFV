@@ -1,18 +1,27 @@
-/* eslint-env browser */
-var p2Moves = document.getElementById("p2Moves");
+/* eslint-env browser,jquery */
+/* eslint no-console: "error" */
 
-p2Moves.addEventListener("click", selectItem);
+
+$(document).ready(function(){
+    $(document).on('click', '#p2Moves li', selectItem);
+   $('body').append("<p>Hello World</p>");
+    //$('#p2Moves li').on('click', selectItem);
+});
+
+//var p2Moves = document.getElementById("p2Moves");
+
+//p2Moves.addEventListener("click", selectItem,true);
 
 function selectItem(e) {
 
-    if (e.target.nodeName == "LI") {
-        console.log("li element click");
-        for (var i = 0; i < e.target.parentNode.children.length; i++) {
-            e.target.parentNode.children[i].classList.remove("selected");
+        for (var i = 0; i < e.currentTarget.parentNode.children.length; i++) {
+            e.currentTarget.parentNode.children[i].classList.remove("selected");
         }
 
-        e.target.classList.add("selected");
-    }
+        e.currentTarget.classList.add("selected");
+        console.log($(e.currentTarget).children().eq(1).text());
+        updateP1Moves($(e.currentTarget).children().eq(1).text());
+   
 }
 
 function toggleVisibility(elementID) {
